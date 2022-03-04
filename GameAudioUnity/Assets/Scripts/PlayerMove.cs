@@ -37,6 +37,8 @@ public class PlayerMove : MonoBehaviour
 
         Vector3 move = transform.right * x + transform.forward * y;
 
+        move.Normalize();
+
         controller.Move(move * speed * Time.deltaTime);
 
         velocity.y += gravity * Time.deltaTime;

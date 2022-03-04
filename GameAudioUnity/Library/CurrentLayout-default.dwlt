@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 15318
+  controlID: 388
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 15319
+  controlID: 362
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 15320
+  controlID: 363
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -397,9 +397,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d2ff0f00
-      m_LastClickedID: 0
-      m_ExpandedIDs: 56eaffff52fbffff0c710000f6810000
+      m_SelectedIDs: f6e0ffff
+      m_LastClickedID: -7946
+      m_ExpandedIDs: 52fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -459,9 +459,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -64.57092, y: -7.3676376, z: 90.47936}
+    m_Target: {x: 14.037388, y: 22.757576, z: -61.420647}
     speed: 2
-    m_Value: {x: -64.57092, y: -7.3676376, z: 90.47936}
+    m_Value: {x: 14.037388, y: 22.757576, z: -61.420647}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -508,13 +508,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.24818823, y: -0.14692365, z: 0.03812887, w: 0.95677423}
+    m_Target: {x: 0.19711033, y: -0.6753211, z: 0.19482215, w: 0.6835226}
     speed: 2
-    m_Value: {x: -0.24818823, y: 0.14692363, z: -0.03812887, w: -0.95677423}
+    m_Value: {x: 0.19578712, y: -0.676614, z: 0.194096, w: 0.68277943}
   m_Size:
-    m_Target: 59.45291
+    m_Target: 32.829338
     speed: 2
-    m_Value: 62.254356
+    m_Value: 31.415634
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -602,22 +602,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 78
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scripts
   m_LastFoldersGridSize: 78
   m_LastProjectPath: D:\Documents\GitHub\GameAudio\GameAudioUnity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c4d70000
-    m_LastClickedID: 55236
-    m_ExpandedIDs: 00000000f8580000fa580000fc580000fe5800000059000000ca9a3b
+    m_SelectedIDs: 42990000
+    m_LastClickedID: 39234
+    m_ExpandedIDs: 00000000fc980000fe98000000990000029900000499000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -645,7 +645,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f8580000fa580000fc580000fe5800000059000000ca9a3b
+    m_ExpandedIDs: 00000000fc980000fe98000000990000029900000499000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
