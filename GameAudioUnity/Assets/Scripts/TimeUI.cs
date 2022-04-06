@@ -8,6 +8,9 @@ public class TimeUI : MonoBehaviour
     public TMP_Text timeUI;
     public TMP_Text dayUI;
 
+    public ActivityInfo Activity1;
+    public ActivityInfo Activity2;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,14 +22,15 @@ public class TimeUI : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.K))
         {
-            TimeOfDay.Instance.IncreaseTime(1);
-            UpdateUI();
+            //TimeOfDay.Instance.IncreaseTime(1);
+            ActivityManager.Instance.OpenMenu(Activity1);
         }
         if (Input.GetKeyDown(KeyCode.L))
         {
-            TimeOfDay.Instance.IncreaseTime(5);
-            UpdateUI();
+            //TimeOfDay.Instance.IncreaseTime(5);
+            ActivityManager.Instance.OpenMenu(Activity2);
         }
+        UpdateUI();
     }
 
     private void UpdateUI()

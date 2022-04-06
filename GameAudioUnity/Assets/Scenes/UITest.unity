@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0.99999905, b: 0.99999905, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 42714995}
   - component: {fileID: 42714994}
   - component: {fileID: 42714993}
+  - component: {fileID: 42714996}
   m_Layer: 0
   m_Name: _GM
   m_TagString: Untagged
@@ -155,6 +156,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeUI: {fileID: 88073902}
   dayUI: {fileID: 307707333}
+  Activity1:
+    title: Job 1
+    description: This is a sample short job
+    effects: + 20$
+    hours: 1
+  Activity2:
+    title: Job 2
+    description: This is a sample long job
+    effects: + 200$
+    hours: 6
 --- !u!114 &42714994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,6 +192,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &42714996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42714992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e062183ea22f5384991a7bd5829e0d2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 1634717473}
+  titleText: {fileID: 1690613931}
+  descriptionText: {fileID: 923063601}
+  effectsText: {fileID: 1785288520}
+  hoursText: {fileID: 1739919688}
 --- !u!114 &88073902 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3177081106153569014, guid: c3d730e892bc5439b9632d9f04d271f3, type: 3}
@@ -332,10 +360,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Press ''K'' to increase time by 1 hour,
+  m_text: 'Press ''K'' to set 1 hour job,
 
-    Press ''L'' to increase time
-    by 5 hours.'
+    Press ''L'' to set 5 hour job.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -683,11 +710,60 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &923063601 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 996769364394545446, guid: 52a429054df1f4a6a80648de2791dbc5, type: 3}
+  m_PrefabInstance: {fileID: 996769364613413842}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &1011012045 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3177081106031594901, guid: c3d730e892bc5439b9632d9f04d271f3, type: 3}
   m_PrefabInstance: {fileID: 3177081106237004888}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1634717473 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7796673646648602210, guid: 52a429054df1f4a6a80648de2791dbc5, type: 3}
+  m_PrefabInstance: {fileID: 996769364613413842}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1690613931 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 996769365672855990, guid: 52a429054df1f4a6a80648de2791dbc5, type: 3}
+  m_PrefabInstance: {fileID: 996769364613413842}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1739919688 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 996769365188932708, guid: 52a429054df1f4a6a80648de2791dbc5, type: 3}
+  m_PrefabInstance: {fileID: 996769364613413842}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1785288520 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 996769364897391571, guid: 52a429054df1f4a6a80648de2791dbc5, type: 3}
+  m_PrefabInstance: {fileID: 996769364613413842}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &996769364613413842
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -695,6 +771,62 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 996769364701378042, guid: 52a429054df1f4a6a80648de2791dbc5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 996769364701378042, guid: 52a429054df1f4a6a80648de2791dbc5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 996769364701378042, guid: 52a429054df1f4a6a80648de2791dbc5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 42714996}
+    - target: {fileID: 996769364701378042, guid: 52a429054df1f4a6a80648de2791dbc5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 996769364701378042, guid: 52a429054df1f4a6a80648de2791dbc5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AcceptActivity
+      objectReference: {fileID: 0}
+    - target: {fileID: 996769364701378042, guid: 52a429054df1f4a6a80648de2791dbc5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ActivityManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 996769364701378042, guid: 52a429054df1f4a6a80648de2791dbc5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 996769365293776524, guid: 52a429054df1f4a6a80648de2791dbc5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 996769365293776524, guid: 52a429054df1f4a6a80648de2791dbc5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 996769365293776524, guid: 52a429054df1f4a6a80648de2791dbc5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 42714996}
+    - target: {fileID: 996769365293776524, guid: 52a429054df1f4a6a80648de2791dbc5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 996769365293776524, guid: 52a429054df1f4a6a80648de2791dbc5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CloseMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 996769365293776524, guid: 52a429054df1f4a6a80648de2791dbc5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ActivityManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 996769365293776524, guid: 52a429054df1f4a6a80648de2791dbc5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1178643065363635693, guid: 52a429054df1f4a6a80648de2791dbc5, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -782,6 +914,10 @@ PrefabInstance:
     - target: {fileID: 7796673646648602210, guid: 52a429054df1f4a6a80648de2791dbc5, type: 3}
       propertyPath: m_Name
       value: BaseActivity
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796673646648602210, guid: 52a429054df1f4a6a80648de2791dbc5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52a429054df1f4a6a80648de2791dbc5, type: 3}
