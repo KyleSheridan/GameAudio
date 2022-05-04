@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3161084853125454752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Ambience
+  Guid:
+    Data1: -1860126097
+    Data2: 1138657991
+    Data3: 1969944249
+    Data4: -2113509403
+  Banks:
+  - {fileID: 7133912630271137473}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 79438
 --- !u!114 &-977493343854817010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,7 +42,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637867582398297476
+  lastModified: 637872642380115795
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -35,13 +62,15 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: 2669854939916521815}
   - {fileID: -977493343854817010}
-  EditorEvents: []
+  - {fileID: 7133912630271137473}
+  EditorEvents:
+  - {fileID: -3161084853125454752}
   EditorParameters: []
   MasterBanks:
   - {fileID: -977493343854817010}
   StringsBanks:
   - {fileID: 2669854939916521815}
-  cacheTime: 637867582398307395
+  cacheTime: 637872642380140596
   cacheVersion: 10
 --- !u!114 &2669854939916521815
 MonoBehaviour:
@@ -58,8 +87,28 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637867582398307395
+  lastModified: 637872642380140596
   FileSizes:
   - Name: Desktop
-    Value: 712
+    Value: 822
+  Exists: 1
+--- !u!114 &7133912630271137473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience Bank.bank
+  m_EditorClassIdentifier: 
+  Path: ../GameAudioFMOD/Build/Desktop/Ambience Bank.bank
+  Name: Ambience Bank
+  StudioPath: bank:/Ambience Bank
+  lastModified: 637872642380081076
+  FileSizes:
+  - Name: Desktop
+    Value: 2305056
   Exists: 1
