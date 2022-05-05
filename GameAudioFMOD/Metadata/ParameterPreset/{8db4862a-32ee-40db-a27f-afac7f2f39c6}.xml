@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{8db4862a-32ee-40db-a27f-afac7f2f39c6}">
+		<property name="name">
+			<value>Radio Channel Selector</value>
+		</property>
+		<relationship name="folder">
+			<destination>{3617ec72-b569-46f3-8025-5cf3590b5a1e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{6ce28723-00db-4234-8571-5fe15d22be1a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{6ce28723-00db-4234-8571-5fe15d22be1a}">
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
