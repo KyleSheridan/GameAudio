@@ -454,7 +454,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{106f9549-46a3-4eb6-803c-6010263f67d0}">
 		<property name="name">
-			<value>Talk Sport</value>
+			<value>5Live</value>
 		</property>
 		<relationship name="automators">
 			<destination>{6c6a238b-8ee1-46db-bf76-dc8faa339434}</destination>
