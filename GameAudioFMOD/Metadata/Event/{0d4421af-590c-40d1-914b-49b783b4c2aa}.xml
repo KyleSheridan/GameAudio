@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{0d4421af-590c-40d1-914b-49b783b4c2aa}">
 		<property name="name">
-			<value>Nested Event 8</value>
+			<value>Noise</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -87,7 +87,10 @@
 	<object class="MixerBusPanner" id="{6d7b2bfe-2cce-46c1-8fd2-3cd500d92f55}" />
 	<object class="SingleSound" id="{2a8df625-ef60-443b-aad5-32412c60d14e}">
 		<property name="length">
-			<value>30.066938775510206</value>
+			<value>2.5500000000000003</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.10000000000000001</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{01c0eac6-720f-4799-9017-f56acda7166c}</destination>
@@ -115,7 +118,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>30.066938775510206</value>
+			<value>2.5500000000000003</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{ec790b73-848e-4232-b55f-df3a916908fc}</destination>

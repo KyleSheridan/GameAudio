@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{8db4862a-32ee-40db-a27f-afac7f2f39c6}">
 		<property name="name">
-			<value>Radio Channel Selector</value>
+			<value>RadioChannelSelector</value>
 		</property>
 		<relationship name="folder">
 			<destination>{3617ec72-b569-46f3-8025-5cf3590b5a1e}</destination>

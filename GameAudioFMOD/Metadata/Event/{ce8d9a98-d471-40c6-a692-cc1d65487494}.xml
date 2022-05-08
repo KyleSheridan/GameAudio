@@ -5,7 +5,7 @@
 			<value>Breakfast Audio</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{b10559a5-0d3f-4b0a-b54e-4136f87e8c5f}</destination>
@@ -57,7 +57,7 @@
 	<object class="MarkerTrack" id="{388a11cf-6552-4344-a3d3-db65d776ef22}" />
 	<object class="GroupTrack" id="{e2bd2df1-df13-4d3a-8a95-9a2654cf65a1}">
 		<relationship name="modules">
-			<destination>{9b6f62eb-c823-4448-a134-d2990a53bede}</destination>
+			<destination>{373e4e7b-0bc6-4063-bdbb-8444940fa172}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{c0e95cf4-286c-463c-b5e0-c93c32b1bcdc}</destination>
@@ -65,7 +65,7 @@
 	</object>
 	<object class="Timeline" id="{f9fc1ef8-ed9b-4cd9-b81c-2afb71ed5c1c}">
 		<relationship name="modules">
-			<destination>{9b6f62eb-c823-4448-a134-d2990a53bede}</destination>
+			<destination>{373e4e7b-0bc6-4063-bdbb-8444940fa172}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{587b8c9e-7d4f-4523-b75e-55c2e62211c3}</destination>
@@ -93,12 +93,9 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f6234b04-e7dd-498d-83f4-13905561ad34}" />
-	<object class="SingleSound" id="{9b6f62eb-c823-4448-a134-d2990a53bede}">
+	<object class="SingleSound" id="{373e4e7b-0bc6-4063-bdbb-8444940fa172}">
 		<property name="length">
-			<value>1807.2416326530613</value>
-		</property>
-		<property name="timelockedOffset">
-			<value>0.040000000000000001</value>
+			<value>900.46693877551024</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{a207035a-0c86-47e8-a140-98c106b24e45}</destination>
@@ -123,7 +120,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>1807.2816326530613</value>
+			<value>900.46693877551024</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{f9fc1ef8-ed9b-4cd9-b81c-2afb71ed5c1c}</destination>

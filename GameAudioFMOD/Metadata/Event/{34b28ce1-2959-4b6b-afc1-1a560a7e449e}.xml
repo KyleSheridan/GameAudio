@@ -5,7 +5,7 @@
 			<value>Evening Audio</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{b10559a5-0d3f-4b0a-b54e-4136f87e8c5f}</destination>
@@ -57,7 +57,7 @@
 	<object class="MarkerTrack" id="{1ab05881-1a7f-4d05-9f6e-4af8baa0a4db}" />
 	<object class="GroupTrack" id="{e5ac23a0-ecf4-4f8b-a4bc-9e755e57c80b}">
 		<relationship name="modules">
-			<destination>{703c3a0b-97f1-472f-9357-ac340bea8696}</destination>
+			<destination>{dfdece6c-7c7f-4098-a5c4-4e7cba59d902}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{5c92b24a-81af-4b0b-9fba-1791fc718bde}</destination>
@@ -65,7 +65,7 @@
 	</object>
 	<object class="Timeline" id="{8daf521e-24a3-4de1-b147-4b4144380a99}">
 		<relationship name="modules">
-			<destination>{703c3a0b-97f1-472f-9357-ac340bea8696}</destination>
+			<destination>{dfdece6c-7c7f-4098-a5c4-4e7cba59d902}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{aaf5910b-696e-41a7-bbfd-96f0d5854b57}</destination>
@@ -93,15 +93,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{45b5c9b3-18e3-4278-bb2f-9eda0e0df8a7}" />
-	<object class="SingleSound" id="{703c3a0b-97f1-472f-9357-ac340bea8696}">
+	<object class="SingleSound" id="{dfdece6c-7c7f-4098-a5c4-4e7cba59d902}">
 		<property name="length">
-			<value>1811.6774489795921</value>
-		</property>
-		<property name="timelockedOffset">
-			<value>0.044999999999999998</value>
+			<value>903.31428571428569</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{cf31f881-e7ce-45a8-9f34-299a5ea12a78}</destination>
+			<destination>{e63f1bd9-ede7-4e9c-98d0-d456b1210eea}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{5c92b24a-81af-4b0b-9fba-1791fc718bde}">
@@ -123,7 +120,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>1811.7224489795919</value>
+			<value>903.31428571428569</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{8daf521e-24a3-4de1-b147-4b4144380a99}</destination>

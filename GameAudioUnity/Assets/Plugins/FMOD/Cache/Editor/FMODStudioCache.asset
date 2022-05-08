@@ -27,6 +27,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 211
+--- !u!114 &-5014708311755749297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Shows/RadioVolume
+  m_EditorClassIdentifier: 
+  Name: RadioVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1854019509
+    data2: 3102033053
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-3161084853125454752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50,10 +74,41 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: 5466060145384173126}
   MinDistance: 1
   MaxDistance: 20
   Length: 79438
+--- !u!114 &-1003417299447233042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Radio/Shows
+  m_EditorClassIdentifier: 
+  Path: event:/Radio/Shows
+  Guid:
+    Data1: -1325049435
+    Data2: 1258949951
+    Data3: 910249653
+    Data4: 1603043064
+  Banks:
+  - {fileID: 4263135782913757359}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8458090240963813134}
+  - {fileID: 1444050481628780057}
+  - {fileID: -5014708311755749297}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-977493343854817010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,7 +124,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637873802865245853
+  lastModified: 637875253742664092
   FileSizes:
   - Name: Desktop
     Value: 5376
@@ -94,13 +149,38 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: -3161084853125454752}
   - {fileID: -6606691170658798543}
+  - {fileID: -1003417299447233042}
   EditorParameters: []
   MasterBanks:
   - {fileID: -977493343854817010}
   StringsBanks:
   - {fileID: 2669854939916521815}
-  cacheTime: 637873802865300410
+  cacheTime: 637875253772894603
   cacheVersion: 10
+--- !u!114 &1444050481628780057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Shows/RadioChannelSelector
+  m_EditorClassIdentifier: 
+  Name: RadioChannelSelector
+  StudioPath: 
+  Min: 0
+  Max: 4
+  Default: 0
+  ID:
+    data1: 3949363111
+    data2: 991259756
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &2669854939916521815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,10 +196,10 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637873802865270665
+  lastModified: 637875253742683954
   FileSizes:
   - Name: Desktop
-    Value: 1038
+    Value: 1172
   Exists: 1
 --- !u!114 &4263135782913757359
 MonoBehaviour:
@@ -136,10 +216,34 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Radio.bank
   Name: Radio
   StudioPath: bank:/Radio
-  lastModified: 637873802865300410
+  lastModified: 637875253772894603
   FileSizes:
   - Name: Desktop
-    Value: 494
+    Value: 475248064
+  Exists: 1
+--- !u!114 &5466060145384173126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambience/AmbienceLevel
+  m_EditorClassIdentifier: 
+  Name: AmbienceLevel
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 960716189
+    data2: 1754541615
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &7133912630271137473
 MonoBehaviour:
@@ -156,8 +260,32 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Ambience Bank.bank
   Name: Ambience Bank
   StudioPath: bank:/Ambience Bank
-  lastModified: 637873802865035754
+  lastModified: 637875253742445850
   FileSizes:
   - Name: Desktop
-    Value: 2305056
+    Value: 2305984
+  Exists: 1
+--- !u!114 &8458090240963813134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Shows/TimeOfDay
+  m_EditorClassIdentifier: 
+  Name: TimeOfDay
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 546433781
+    data2: 2437154329
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
