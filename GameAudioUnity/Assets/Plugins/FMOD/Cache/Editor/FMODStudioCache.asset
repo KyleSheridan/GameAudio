@@ -124,7 +124,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637875253742664092
+  lastModified: 637876120286268804
   FileSizes:
   - Name: Desktop
     Value: 5376
@@ -155,7 +155,7 @@ MonoBehaviour:
   - {fileID: -977493343854817010}
   StringsBanks:
   - {fileID: 2669854939916521815}
-  cacheTime: 637875253772894603
+  cacheTime: 637876120292488950
   cacheVersion: 10
 --- !u!114 &1444050481628780057
 MonoBehaviour:
@@ -172,7 +172,7 @@ MonoBehaviour:
   Name: RadioChannelSelector
   StudioPath: 
   Min: 0
-  Max: 4
+  Max: 2
   Default: 0
   ID:
     data1: 3949363111
@@ -196,7 +196,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637875253742683954
+  lastModified: 637876120286298634
   FileSizes:
   - Name: Desktop
     Value: 1172
@@ -216,10 +216,10 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Radio.bank
   Name: Radio
   StudioPath: bank:/Radio
-  lastModified: 637875253772894603
+  lastModified: 637876120292488950
   FileSizes:
   - Name: Desktop
-    Value: 475248064
+    Value: 96554112
   Exists: 1
 --- !u!114 &5466060145384173126
 MonoBehaviour:
@@ -260,7 +260,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Ambience Bank.bank
   Name: Ambience Bank
   StudioPath: bank:/Ambience Bank
-  lastModified: 637875253742445850
+  lastModified: 637876120286055526
   FileSizes:
   - Name: Desktop
     Value: 2305984
