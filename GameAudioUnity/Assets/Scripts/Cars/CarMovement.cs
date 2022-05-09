@@ -11,13 +11,13 @@ public class CarMovement : MonoBehaviour
 
     public float slowSpeed = 3f;
 
-    public float breakDist = 3f;
+    public float breakDist = 10f;
 
     public float rotationSpeed = 3f;
 
     private Vector3 target;
 
-    private float breakAmount = 5f;
+    private float breakAmount = 1f;
 
     private int currentIndex;
 
@@ -100,6 +100,8 @@ public class CarMovement : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.green;
+
+        if(waypoints.Count < 1) { return; }
 
         for (int i = 0; i < waypoints.Count; i++)
         {
