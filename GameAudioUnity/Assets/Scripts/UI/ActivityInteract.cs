@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ActivityInteract : MonoBehaviour
 {
-    public ActivityInfo activity;
+    public List<ActivityInfo> activities;
 
     bool menuOpen = false;
 
@@ -22,7 +22,7 @@ public class ActivityInteract : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.E) && !ActivityManager.Instance.menuOpen)
             {
-                ActivityManager.Instance.OpenMenu(activity);
+                ActivityManager.Instance.OpenMenu(activities);
             }
         }
     }
