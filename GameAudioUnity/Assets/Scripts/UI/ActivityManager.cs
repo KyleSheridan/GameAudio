@@ -29,7 +29,7 @@ public class ActivityManager : MonoBehaviour
 
     public GameObject interactText;
 
-    public bool menuOPpen { get; private set; }
+    public bool menuOpen { get; private set; }
 
     private ActivityInfo currentActivity;
 
@@ -42,13 +42,13 @@ public class ActivityManager : MonoBehaviour
         else
         {
             _instance = this;
-            menuOPpen = false;
+            menuOpen = false;
         }
     }
 
     public void OpenMenu(ActivityInfo info)
     {
-        if(canvas.activeInHierarchy) { return; }
+        if(canvas.activeInHierarchy || menuOpen) { return; }
 
         currentActivity = info;
 
@@ -66,7 +66,7 @@ public class ActivityManager : MonoBehaviour
             hoursText.text = "Next Day";
         }
 
-        menuOPpen = true;
+        menuOpen = true;
         Cursor.lockState = CursorLockMode.None;
     }
 
@@ -76,8 +76,21 @@ public class ActivityManager : MonoBehaviour
 
         canvas.SetActive(false);
 
-        menuOPpen = false;
+        menuOpen = false;
         Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    public void SetMenuOpen(bool val)
+    {
+        menuOpen = val;
+        if (val)
+        {
+            Cursor.lockState = CursorLockMode.None;
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
     }
 
     public void AcceptActivity()

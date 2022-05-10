@@ -20,7 +20,7 @@ public class ActivityInteract : MonoBehaviour
     {
         if (collider.gameObject.tag == "Player")
         {
-            if (Input.GetKey(KeyCode.E) && !ActivityManager.Instance.menuOPpen)
+            if (Input.GetKey(KeyCode.E) && !ActivityManager.Instance.menuOpen)
             {
                 ActivityManager.Instance.OpenMenu(activity);
             }

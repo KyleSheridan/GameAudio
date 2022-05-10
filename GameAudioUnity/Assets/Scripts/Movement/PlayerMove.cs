@@ -25,7 +25,7 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(ActivityManager.Instance.menuOPpen) { return; }
+        if(ActivityManager.Instance.menuOpen) { return; }
 
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
