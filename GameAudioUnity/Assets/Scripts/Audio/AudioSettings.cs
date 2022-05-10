@@ -13,12 +13,15 @@ public class AudioSettings : MonoBehaviour
     float sfxVolume = 0.5f;
     float masterVolume = 1f;
 
+    float soundWaitTime = .6f;
+    bool canPlaySound = true;
+
     void Awake()
     {
         Music = FMODUnity.RuntimeManager.GetBus("bus:/Music");
         SFX = FMODUnity.RuntimeManager.GetBus("bus:/SFX");
         Master = FMODUnity.RuntimeManager.GetBus("bus:/");
-        SFXVolumeTestEvent = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/SFXVolumeTest");
+        SFXVolumeTestEvent = FMODUnity.RuntimeManager.CreateInstance("event:/UI/SFXVolumeTest");
     }
 
     // Update is called once per frame
@@ -35,9 +38,10 @@ public class AudioSettings : MonoBehaviour
 
         FMOD.Studio.PLAYBACK_STATE PbState;
         SFXVolumeTestEvent.getPlaybackState(out PbState);
-        if (PbState != FMOD.Studio.PLAYBACK_STATE.PLAYING)
+        if (PbState != FMOD.Studio.PLAYBACK_STATE.PLAYING && canPlaySound)
         {
             SFXVolumeTestEvent.start();
+            StartCoroutine(SoundWait());
         }
     }
     public void MusicVolumeLevel(float newMusicVolume)
@@ -50,9 +54,19 @@ public class AudioSettings : MonoBehaviour
 
         FMOD.Studio.PLAYBACK_STATE PbState;
         SFXVolumeTestEvent.getPlaybackState(out PbState);
-        if (PbState != FMOD.Studio.PLAYBACK_STATE.PLAYING)
+        if (PbState != FMOD.Studio.PLAYBACK_STATE.PLAYING && canPlaySound)
         {
             SFXVolumeTestEvent.start();
+            StartCoroutine(SoundWait());
         }
+    }
+
+    IEnumerator SoundWait()
+    {
+        canPlaySound = false;
+
+        yield return new WaitForSeconds(soundWaitTime);
+
+        canPlaySound = true;
     }
 }
