@@ -11,7 +11,10 @@ public struct ActivityInfo
     public string description;
     [TextArea]
     public string effects;
+
     public int hours;
+
+    public List<StatModifier> modifiers;
 } 
 
 public class ActivityManager : MonoBehaviour
@@ -153,7 +156,10 @@ public class ActivityManager : MonoBehaviour
 
         TimeOfDay.Instance.IncreaseTime(currentActivity.hours);
 
-        //set stats
+        for (int i = 0; i < currentActivity.modifiers.Count; i++)
+        {
+            PlayerStats.Instance.ModifyStat(currentActivity.modifiers[i]);
+        }
 
         CloseActivity();
     }

@@ -6,8 +6,6 @@ public class ActivityInteract : MonoBehaviour
 {
     public List<ActivityInfo> activities;
 
-    bool menuOpen = false;
-
     private void OnTriggerEnter(Collider collider)
     {
         if(collider.gameObject.tag == "Player")
