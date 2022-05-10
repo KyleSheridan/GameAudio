@@ -20,7 +20,8 @@ public class ActivityManager : MonoBehaviour
 
     public static ActivityManager Instance { get { return _instance; } }
 
-    public GameObject canvas;
+    public GameObject activitySelectMenu;
+    public GameObject activityMenu;
 
     public TMP_Text titleText;
     public TMP_Text descriptionText;
@@ -29,9 +30,17 @@ public class ActivityManager : MonoBehaviour
 
     public GameObject interactText;
 
+    public List<GameObject> buttons;
+    public List<TMP_Text> texts;
+
+    public TMP_Text activityDescriptionText;
+
     public bool menuOpen { get; private set; }
 
+    private bool activityOpen = false;
+
     private ActivityInfo currentActivity;
+    private List<ActivityInfo> activityList;
 
     private void Awake()
     {
@@ -46,13 +55,56 @@ public class ActivityManager : MonoBehaviour
         }
     }
 
-    public void OpenMenu(ActivityInfo info)
+    public void SelectActivity(int index)
     {
-        if(canvas.activeInHierarchy || menuOpen) { return; }
+        CloseMenu();
+
+        OpenActivity(activityList[index]);
+    }
+
+    public void OnHover(int index)
+    {
+        activityDescriptionText.text = activityList[index].description;
+    }
+
+    public void OpenMenu(List<ActivityInfo> activities)
+    {
+        if (activitySelectMenu.activeInHierarchy || menuOpen) { return; }
+
+        activityList = activities;
+
+        activitySelectMenu.SetActive(true);
+
+        for (int i = 0; i < activities.Count; i++)
+        {
+            buttons[i].SetActive(true);
+            texts[i].text = activityList[i].title;
+        }
+
+        SetMenuOpen(true);
+    }
+
+    public void CloseMenu()
+    {
+        if (!activitySelectMenu.activeInHierarchy) { return; }
+
+        for (int i = 0; i < buttons.Count; i++)
+        {
+            buttons[i].SetActive(false);
+        }
+
+        activitySelectMenu.SetActive(false);
+
+        SetMenuOpen(false);
+    }
+
+    public void OpenActivity(ActivityInfo info)
+    {
+        if(activityMenu.activeInHierarchy || activityOpen) { return; }
 
         currentActivity = info;
 
-        canvas.SetActive(true);
+        activityMenu.SetActive(true);
 
         titleText.text = info.title;
         descriptionText.text = info.description;
@@ -66,18 +118,20 @@ public class ActivityManager : MonoBehaviour
             hoursText.text = "Next Day";
         }
 
-        menuOpen = true;
-        Cursor.lockState = CursorLockMode.None;
+        SetMenuOpen(true);
+
+        activityOpen = true;
     }
 
-    public void CloseMenu()
+    public void CloseActivity()
     {
-        if(!canvas.activeInHierarchy) { return; }
+        if(!activityMenu.activeInHierarchy) { return; }
 
-        canvas.SetActive(false);
+        activityMenu.SetActive(false);
 
-        menuOpen = false;
-        Cursor.lockState = CursorLockMode.Locked;
+        SetMenuOpen(false);
+
+        activityOpen = false;
     }
 
     public void SetMenuOpen(bool val)
@@ -95,13 +149,13 @@ public class ActivityManager : MonoBehaviour
 
     public void AcceptActivity()
     {
-        if (!canvas.activeInHierarchy) { return; }
+        if (!activityMenu.activeInHierarchy) { return; }
 
         TimeOfDay.Instance.IncreaseTime(currentActivity.hours);
 
         //set stats
 
-        CloseMenu();
+        CloseActivity();
     }
 
     private void OnDestroy()
