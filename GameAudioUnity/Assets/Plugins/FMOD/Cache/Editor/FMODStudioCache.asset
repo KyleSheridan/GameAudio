@@ -79,6 +79,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 79438
+--- !u!114 &-1766572323233351795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Church Menu/TimeOfDay
+  m_EditorClassIdentifier: 
+  Name: TimeOfDay
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 546433781
+    data2: 2437154329
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-1003417299447233042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124,7 +148,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637877308435402956
+  lastModified: 637877891726943459
   FileSizes:
   - Name: Desktop
     Value: 5376
@@ -146,17 +170,53 @@ MonoBehaviour:
   - {fileID: -977493343854817010}
   - {fileID: 7133912630271137473}
   - {fileID: 4263135782913757359}
+  - {fileID: 5446560361818312723}
+  - {fileID: 1865855333712347584}
   EditorEvents:
   - {fileID: -3161084853125454752}
   - {fileID: -6606691170658798543}
   - {fileID: -1003417299447233042}
+  - {fileID: 154607632355804755}
+  - {fileID: 8143075351642230645}
   EditorParameters: []
   MasterBanks:
   - {fileID: -977493343854817010}
   StringsBanks:
   - {fileID: 2669854939916521815}
-  cacheTime: 637877308438606532
+<<<<<<< Updated upstream
+  cacheTime: 637877955451389674
+=======
+  cacheTime: 637877891732425812
+>>>>>>> Stashed changes
   cacheVersion: 10
+--- !u!114 &154607632355804755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Church/Church Menu
+  m_EditorClassIdentifier: 
+  Path: event:/Church/Church Menu
+  Guid:
+    Data1: -275920502
+    Data2: 1266223481
+    Data3: -2099622258
+    Data4: 2138438100
+  Banks:
+  - {fileID: 5446560361818312723}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -1766572323233351795}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &1444050481628780057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,6 +241,26 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &1865855333712347584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Church Ext.bank
+  m_EditorClassIdentifier: 
+  Path: ../GameAudioFMOD/Build/Desktop/Church Ext.bank
+  Name: Church Ext
+  StudioPath: bank:/Church Ext
+  lastModified: 637877891732425812
+  FileSizes:
+  - Name: Desktop
+    Value: 1234080
+  Exists: 1
 --- !u!114 &2669854939916521815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,10 +276,14 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637877308435412967
+<<<<<<< Updated upstream
+  lastModified: 637877955451389674
+=======
+  lastModified: 637877891726963650
+>>>>>>> Stashed changes
   FileSizes:
   - Name: Desktop
-    Value: 1172
+    Value: 1400
   Exists: 1
 --- !u!114 &4263135782913757359
 MonoBehaviour:
@@ -216,10 +300,54 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Radio.bank
   Name: Radio
   StudioPath: bank:/Radio
-  lastModified: 637877308438606532
+  lastModified: 637877891732196064
   FileSizes:
   - Name: Desktop
     Value: 96554112
+  Exists: 1
+--- !u!114 &5011029799263761047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Church Bells/TimeOfDay
+  m_EditorClassIdentifier: 
+  Name: TimeOfDay
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 546433781
+    data2: 2437154329
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &5446560361818312723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Church.bank
+  m_EditorClassIdentifier: 
+  Path: ../GameAudioFMOD/Build/Desktop/Church.bank
+  Name: Church
+  StudioPath: bank:/Church
+  lastModified: 637877891726744201
+  FileSizes:
+  - Name: Desktop
+    Value: 29449824
   Exists: 1
 --- !u!114 &5466060145384173126
 MonoBehaviour:
@@ -260,11 +388,39 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Ambience Bank.bank
   Name: Ambience Bank
   StudioPath: bank:/Ambience Bank
-  lastModified: 637877308434992191
+  lastModified: 637877891724899044
   FileSizes:
   - Name: Desktop
     Value: 2305984
   Exists: 1
+--- !u!114 &8143075351642230645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Church/Church Bells
+  m_EditorClassIdentifier: 
+  Path: event:/Church/Church Bells
+  Guid:
+    Data1: 395418650
+    Data2: 1319339300
+    Data3: -434752637
+    Data4: 1631171445
+  Banks:
+  - {fileID: 1865855333712347584}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 5011029799263761047}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &8458090240963813134
 MonoBehaviour:
   m_ObjectHideFlags: 0
