@@ -62,12 +62,24 @@
 	<object class="EventAutomatableProperties" id="{df547496-37ce-4d6b-9bb3-433089ec6baa}" />
 	<object class="MarkerTrack" id="{1f656caf-3303-47b2-bfe0-df7036a7873f}" />
 	<object class="GroupTrack" id="{08bb7bf4-83fe-4297-81af-3463c3941e66}">
+<<<<<<< Updated upstream
+=======
+		<relationship name="modules">
+			<destination>{d3e2425c-37f1-4208-a303-5cbea07c86c9}</destination>
+		</relationship>
+>>>>>>> Stashed changes
 		<relationship name="mixerGroup">
 			<destination>{b711469f-cfe2-4342-b702-3e6595a883ad}</destination>
 		</relationship>
 	</object>
 	<object class="Timeline" id="{84e5fda8-04ee-4870-9798-a83f45f91ff4}" />
 	<object class="ParameterProxy" id="{2548f2e7-bec9-491e-9678-7e86e8cd9c38}">
+<<<<<<< Updated upstream
+=======
+		<relationship name="modules">
+			<destination>{d3e2425c-37f1-4208-a303-5cbea07c86c9}</destination>
+		</relationship>
+>>>>>>> Stashed changes
 		<relationship name="preset">
 			<destination>{0291ddc8-b3d8-4c00-b392-390400aac060}</destination>
 		</relationship>
@@ -89,6 +101,20 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{277ac4fe-1fc0-47e5-a927-19c8474459db}" />
+<<<<<<< Updated upstream
+=======
+	<object class="EventSound" id="{d3e2425c-37f1-4208-a303-5cbea07c86c9}">
+		<property name="start">
+			<value>0.40000000000000002</value>
+		</property>
+		<property name="length">
+			<value>0.099999999999999992</value>
+		</property>
+		<relationship name="event">
+			<destination>{421354a7-ba72-44d2-a815-ccb3f4147a87}</destination>
+		</relationship>
+	</object>
+>>>>>>> Stashed changes
 	<object class="EventMixerGroup" id="{b711469f-cfe2-4342-b702-3e6595a883ad}">
 		<property name="name">
 			<value>Audio 1</value>

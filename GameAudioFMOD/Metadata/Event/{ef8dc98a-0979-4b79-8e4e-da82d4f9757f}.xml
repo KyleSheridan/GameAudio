@@ -33,7 +33,10 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{5c20143c-64c1-49f5-b34e-f47172fec4a8}</destination>
+<<<<<<< Updated upstream
 			<destination>{1cc0ad04-6343-472e-89ff-7e8903ff5328}</destination>
+=======
+>>>>>>> Stashed changes
 		</relationship>
 		<relationship name="banks">
 			<destination>{081c90c7-bbb5-49e0-942c-7a1a11572e5a}</destination>
@@ -79,11 +82,14 @@
 			<destination>{0291ddc8-b3d8-4c00-b392-390400aac060}</destination>
 		</relationship>
 	</object>
+<<<<<<< Updated upstream
 	<object class="ParameterProxy" id="{1cc0ad04-6343-472e-89ff-7e8903ff5328}">
 		<relationship name="preset">
 			<destination>{37237e88-c3dc-48d4-8165-454a64e59e61}</destination>
 		</relationship>
 	</object>
+=======
+>>>>>>> Stashed changes
 	<object class="EventMixerMaster" id="{86e19f84-60f7-461d-ba2e-21b37c058f47}">
 		<relationship name="effectChain">
 			<destination>{42681359-34b3-4d76-9c10-9495d8600de1}</destination>

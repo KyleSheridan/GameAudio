@@ -69,9 +69,12 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{1fd9691d-8ca4-4a55-9400-d3f3dcdb79c7}">
+<<<<<<< Updated upstream
 		<property name="volume">
 			<value>-17</value>
 		</property>
+=======
+>>>>>>> Stashed changes
 		<relationship name="effectChain">
 			<destination>{ab2abc2d-a450-45fe-8818-a39c08a36ecb}</destination>
 		</relationship>
@@ -133,7 +136,10 @@
 	<object class="MixerBusEffectChain" id="{ab2abc2d-a450-45fe-8818-a39c08a36ecb}">
 		<relationship name="effects">
 			<destination>{2cd74e7d-1a6e-43e9-b186-877cf416e3ee}</destination>
+<<<<<<< Updated upstream
 			<destination>{76ae0901-6f28-44a4-8176-74fb1ce3ea1a}</destination>
+=======
+>>>>>>> Stashed changes
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c5d98aae-93d5-471b-aa45-1a39277841b7}" />
@@ -153,6 +159,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{d831cd90-453c-4e42-a60c-daf2e5c435db}" />
 	<object class="MixerBusFader" id="{2cd74e7d-1a6e-43e9-b186-877cf416e3ee}" />
+<<<<<<< Updated upstream
 	<object class="MultibandEqEffect" id="{76ae0901-6f28-44a4-8176-74fb1ce3ea1a}">
 		<property name="filterTypeB">
 			<value>6</value>
@@ -170,5 +177,7 @@
 			<value>0.413965493</value>
 		</property>
 	</object>
+=======
+>>>>>>> Stashed changes
 	<object class="MixerBusFader" id="{84b61645-89ab-4a35-8bc5-062b5e13986f}" />
 </objects>
