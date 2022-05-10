@@ -19,7 +19,7 @@ public class PlayerLook : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(ActivityManager.Instance.menuOPpen) { return; }
+        if(ActivityManager.Instance.menuOpen) { return; }
 
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;

@@ -69,7 +69,6 @@ public class CarMovement : MonoBehaviour
         else
         {
             if (currentSpeed == speed) { return; }
-            Debug.Log("Accelerating");
             currentSpeed = LerpToSpeed(speed);
         }
     }
