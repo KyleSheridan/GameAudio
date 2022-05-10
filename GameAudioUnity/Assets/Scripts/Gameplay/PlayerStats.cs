@@ -7,6 +7,7 @@ public enum StatType
     Money,
     Charisma,
     Intelligence,
+    Strength,
     Hunger,
     Energy
 }
@@ -29,6 +30,7 @@ public class PlayerStats : MonoBehaviour
     private int _money;
     private int _charisma;
     private int _intelligence;
+    private int _strength;
     private int _hunger;
     private int _energy;
 
@@ -51,6 +53,13 @@ public class PlayerStats : MonoBehaviour
         get
         {
             return _intelligence;
+        }
+    }
+    public int Strength
+    {
+        get
+        {
+            return _strength;
         }
     }
     public int Hunger
@@ -85,6 +94,7 @@ public class PlayerStats : MonoBehaviour
         _money = 0;
         _charisma = 5;
         _intelligence = 1;
+        _strength = 1;
         _hunger = 100;
         _energy = 30;
 
@@ -103,6 +113,9 @@ public class PlayerStats : MonoBehaviour
                 break;
             case StatType.Intelligence:
                 _intelligence += modifier.amount;
+                break;
+            case StatType.Strength:
+                _strength += modifier.amount;
                 break;
             case StatType.Hunger:
                 _hunger += modifier.amount;
