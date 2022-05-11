@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{2cb963ec-4aca-4516-aca4-1ee0a25643c5}">
 		<property name="name">
-			<value>Weightlifting</value>
+			<value>Gym</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -30,6 +30,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{208e13f7-a862-4461-a3d7-21e0430d0b05}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{df31ee1d-65d1-404a-a694-9e7cb884e831}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{c8ba4c1c-3e13-48a5-a657-0e1579c91439}">
@@ -62,8 +65,6 @@
 			<destination>{157f2d6e-5549-478e-9060-a7797cbed1b7}</destination>
 			<destination>{e0600c2e-0405-4102-b78c-4a37daf881f1}</destination>
 			<destination>{c6d26465-5c8e-42f1-afc2-7a5c28a8b58d}</destination>
-			<destination>{9c39aeb4-6b55-43d0-a0ac-baa0c926bf35}</destination>
-			<destination>{e2622ac7-870e-4e82-b631-eff08f6751bd}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{b246b3fb-2399-4cfc-a87f-80b68875cc52}</destination>
@@ -76,8 +77,6 @@
 			<destination>{157f2d6e-5549-478e-9060-a7797cbed1b7}</destination>
 			<destination>{e0600c2e-0405-4102-b78c-4a37daf881f1}</destination>
 			<destination>{c6d26465-5c8e-42f1-afc2-7a5c28a8b58d}</destination>
-			<destination>{9c39aeb4-6b55-43d0-a0ac-baa0c926bf35}</destination>
-			<destination>{e2622ac7-870e-4e82-b631-eff08f6751bd}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{31b7c7ea-e0ef-45fd-813e-a8b8c352dc89}">
@@ -124,7 +123,7 @@
 	</object>
 	<object class="SingleSound" id="{157f2d6e-5549-478e-9060-a7797cbed1b7}">
 		<property name="start">
-			<value>6.5</value>
+			<value>4.3891356426095323</value>
 		</property>
 		<property name="length">
 			<value>1.6000000000000032</value>
@@ -164,34 +163,6 @@
 			<destination>{06a49507-da93-40d0-9480-ac27d1ef053d}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{9c39aeb4-6b55-43d0-a0ac-baa0c926bf35}">
-		<property name="start">
-			<value>4.3891356426095323</value>
-		</property>
-		<property name="length">
-			<value>0.94456782130476591</value>
-		</property>
-		<property name="timelockedOffset">
-			<value>5.4554321786952347</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{06a49507-da93-40d0-9480-ac27d1ef053d}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{e2622ac7-870e-4e82-b631-eff08f6751bd}">
-		<property name="start">
-			<value>5.3337034639142979</value>
-		</property>
-		<property name="length">
-			<value>1.1662965360857021</value>
-		</property>
-		<property name="timelockedOffset">
-			<value>5.4554321786952347</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{06a49507-da93-40d0-9480-ac27d1ef053d}</destination>
-		</relationship>
-	</object>
 	<object class="EventMixerGroup" id="{b246b3fb-2399-4cfc-a87f-80b68875cc52}">
 		<property name="name">
 			<value>Audio 1</value>
@@ -216,6 +187,7 @@
 	<object class="MixerBusFader" id="{1d185111-e114-4ee3-a93a-ef7f71e2d3a6}" />
 	<object class="MixerBusEffectChain" id="{6e194fb9-57c7-438a-96e6-06ecba3d4c13}">
 		<relationship name="effects">
+			<destination>{e3d9bd5d-40ed-48d8-9d75-d6a75ba87384}</destination>
 			<destination>{735eea52-7cf9-4ebc-a53d-3b0a7280a1d6}</destination>
 		</relationship>
 	</object>
@@ -229,5 +201,16 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{f83eb3a3-4fba-4af8-bb76-acced872bae0}" />
+	<object class="ThreeEQEffect" id="{e3d9bd5d-40ed-48d8-9d75-d6a75ba87384}">
+		<property name="lowGain">
+			<value>7</value>
+		</property>
+		<property name="midGain">
+			<value>10</value>
+		</property>
+		<property name="highGain">
+			<value>-12.5</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{735eea52-7cf9-4ebc-a53d-3b0a7280a1d6}" />
 </objects>
