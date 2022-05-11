@@ -45,7 +45,7 @@ public class FadeToBlack : MonoBehaviour
     {
         radioEvent = radioAudio.EventInstance;
 
-        worldSounds = FMODUnity.RuntimeManager.GetBus("bus:/Music");
+        worldSounds = FMODUnity.RuntimeManager.GetBus("bus:/World");
     }
 
     void Update()
