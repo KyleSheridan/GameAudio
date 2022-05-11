@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Vehicles.bank
   Name: Vehicles
   StudioPath: bank:/Vehicles
-  lastModified: 637879071871097361
+  lastModified: 637879101708049604
   FileSizes:
   - Name: Desktop
     Value: 90752
@@ -469,7 +469,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637879071848586032
+  lastModified: 637879101694953556
   FileSizes:
   - Name: Desktop
     Value: 24992
@@ -489,7 +489,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/House.bank
   Name: House
   StudioPath: bank:/House
-  lastModified: 637879071848375999
+  lastModified: 637879101694472199
   FileSizes:
   - Name: Desktop
     Value: 774272
@@ -566,7 +566,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Ambience Bank.bank
   Name: Ambience Bank
   StudioPath: bank:/Ambience Bank
-  lastModified: 637879071517104748
+  lastModified: 637879101683134301
   FileSizes:
   - Name: Desktop
     Value: 2305984
@@ -669,10 +669,10 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Church.bank
   Name: Church
   StudioPath: bank:/Church
-  lastModified: 637879071799902767
+  lastModified: 637879101691368760
   FileSizes:
   - Name: Desktop
-    Value: 28665952
+    Value: 28666208
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -729,7 +729,7 @@ MonoBehaviour:
   - {fileID: -2419417729037082699}
   StringsBanks:
   - {fileID: 1086247547052257025}
-  cacheTime: 637879071871097361
+  cacheTime: 637879101708049604
   cacheVersion: 10
 --- !u!114 &141746237745607076
 MonoBehaviour:
@@ -746,7 +746,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Bar.bank
   Name: Bar
   StudioPath: bank:/Bar
-  lastModified: 637879071798222482
+  lastModified: 637879101687919994
   FileSizes:
   - Name: Desktop
     Value: 30122784
@@ -793,7 +793,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637879071848606043
+  lastModified: 637879101694953556
   FileSizes:
   - Name: Desktop
     Value: 3046
@@ -813,7 +813,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/School.bank
   Name: School
   StudioPath: bank:/School
-  lastModified: 637879071870477254
+  lastModified: 637879101707416861
   FileSizes:
   - Name: Desktop
     Value: 4235328
@@ -968,10 +968,10 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Radio.bank
   Name: Radio
   StudioPath: bank:/Radio
-  lastModified: 637879071854071958
+  lastModified: 637879101706366151
   FileSizes:
   - Name: Desktop
-    Value: 96554496
+    Value: 96554112
   Exists: 1
 --- !u!114 &3604066993859699034
 MonoBehaviour:
@@ -1015,7 +1015,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Hardware Store.bank
   Name: Hardware Store
   StudioPath: bank:/Hardware Store
-  lastModified: 637879071847565860
+  lastModified: 637879101692220777
   FileSizes:
   - Name: Desktop
     Value: 4615936
