@@ -1,5 +1,84 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8738431260222382937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vehicle SFX/Stationary bus or pick up
+  m_EditorClassIdentifier: 
+  Path: event:/Vehicle SFX/Stationary bus or pick up
+  Guid:
+    Data1: 213757300
+    Data2: 1083268029
+    Data3: 630989470
+    Data4: -560626770
+  Banks:
+  - {fileID: 4350871237502974918}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3000
+--- !u!114 &-8333995225865368107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Moving Pick up/Pick up displacement
+  m_EditorClassIdentifier: 
+  Name: Pick up displacement
+  StudioPath: 
+  Min: 0
+  Max: 20
+  Default: 0
+  ID:
+    data1: 3791440727
+    data2: 1254988075
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-8273001018588214431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vehicle SFX/Moving Pick up
+  m_EditorClassIdentifier: 
+  Path: event:/Vehicle SFX/Moving Pick up
+  Guid:
+    Data1: -979616730
+    Data2: 1326922995
+    Data3: 1570022030
+    Data4: 1455771170
+  Banks:
+  - {fileID: 4350871237502974918}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8333995225865368107}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-5920627120715983308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39,7 +118,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Church Service.bank
   Name: Church Service
   StudioPath: bank:/Church Service
-  lastModified: 637878896570926091
+  lastModified: 637878919618610989
   FileSizes:
   - Name: Desktop
     Value: 28454112
@@ -142,10 +221,34 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637878896577430511
+  lastModified: 637878919629904688
   FileSizes:
   - Name: Desktop
-    Value: 1906
+    Value: 2110
+  Exists: 1
+--- !u!114 &-1726730196812661285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Moving bus/Bus Displacement
+  m_EditorClassIdentifier: 
+  Name: Bus Displacement
+  StudioPath: 
+  Min: 0
+  Max: 20
+  Default: 0
+  ID:
+    data1: 2894175657
+    data2: 176810142
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -180,12 +283,14 @@ MonoBehaviour:
   - {fileID: 2639173143506991147}
   - {fileID: 8295083182609678513}
   - {fileID: -2757225552864323692}
+  - {fileID: -8273001018588214431}
+  - {fileID: -8738431260222382937}
   EditorParameters: []
   MasterBanks:
   - {fileID: 720002707084023763}
   StringsBanks:
   - {fileID: -1815504499946847551}
-  cacheTime: 637878896589130791
+  cacheTime: 637878919643311896
   cacheVersion: 10
 --- !u!114 &169582578170319965
 MonoBehaviour:
@@ -254,7 +359,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637878896577430511
+  lastModified: 637878919629879607
   FileSizes:
   - Name: Desktop
     Value: 24416
@@ -355,7 +460,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/House.bank
   Name: House
   StudioPath: bank:/House
-  lastModified: 637878896577078965
+  lastModified: 637878919629407455
   FileSizes:
   - Name: Desktop
     Value: 216064
@@ -375,7 +480,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Church.bank
   Name: Church
   StudioPath: bank:/Church
-  lastModified: 637878896574329244
+  lastModified: 637878919622560853
   FileSizes:
   - Name: Desktop
     Value: 28666208
@@ -446,7 +551,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Ambience Bank.bank
   Name: Ambience Bank
   StudioPath: bank:/Ambience Bank
-  lastModified: 637878896567397016
+  lastModified: 637878919614431720
   FileSizes:
   - Name: Desktop
     Value: 2305984
@@ -466,10 +571,10 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Vehicles.bank
   Name: Vehicles
   StudioPath: bank:/Vehicles
-  lastModified: 637878896589130791
+  lastModified: 637878919643311896
   FileSizes:
   - Name: Desktop
-    Value: 85152
+    Value: 90976
   Exists: 1
 --- !u!114 &4977911738534064055
 MonoBehaviour:
@@ -491,30 +596,6 @@ MonoBehaviour:
   ID:
     data1: 546433781
     data2: 2437154329
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &5701758143416966110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Moving bus/Distance from car
-  m_EditorClassIdentifier: 
-  Name: Distance from car
-  StudioPath: 
-  Min: 0
-  Max: 20
-  Default: 0
-  ID:
-    data1: 3522168613
-    data2: 3218340014
   Type: 0
   IsGlobal: 0
   Labels: []
@@ -558,7 +639,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Radio.bank
   Name: Radio
   StudioPath: bank:/Radio
-  lastModified: 637878896588648027
+  lastModified: 637878919642608740
   FileSizes:
   - Name: Desktop
     Value: 96554112
@@ -635,7 +716,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Church Menu Hallelujah.bank
   Name: Church Menu Hallelujah
   StudioPath: bank:/Church Menu Hallelujah
-  lastModified: 637878896567436744
+  lastModified: 637878919614481371
   FileSizes:
   - Name: Desktop
     Value: 494
@@ -664,7 +745,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 5701758143416966110}
+  - {fileID: -1726730196812661285}
   MinDistance: 1
   MaxDistance: 20
   Length: 0

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{3ab5141d-fbfe-4c4a-b52e-eb8bcf281a62}">
+		<property name="name">
+			<value>Bus Displacement</value>
+		</property>
+		<relationship name="folder">
+			<destination>{3617ec72-b569-46f3-8025-5cf3590b5a1e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{62163e91-e62a-4cae-88eb-b1582e7f2cb3}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{62163e91-e62a-4cae-88eb-b1582e7f2cb3}">
+		<property name="maximum">
+			<value>20</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
