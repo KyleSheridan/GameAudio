@@ -71,6 +71,15 @@ public class ActivityManager : MonoBehaviour
         }
     }
 
+    public void ResumeGame()
+    {
+        menuEventInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+
+        CloseMenu();
+
+        FadeToBlack.Intstance.FadeIn();
+    }
+
     public void SelectActivity(int index)
     {
         CloseMenu();
