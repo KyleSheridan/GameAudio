@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{f05a70e7-27f7-4bcb-8a25-dc6e6ff6bc55}">
 		<property name="assetPath">
-			<value>BBC Radio One - Rickie, Melvin and Charlie.mp3</value>
+			<value>Steve/BBC Radio One - Rickie, Melvin and Charlie.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

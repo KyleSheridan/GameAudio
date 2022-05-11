@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{e63f1bd9-ede7-4e9c-98d0-d456b1210eea}">
 		<property name="assetPath">
-			<value>BBC Radio One - Radio 1's Future Artists - Jack Saundurs.mp3</value>
+			<value>Steve/BBC Radio One - Radio 1's Future Artists - Jack Saundurs.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{78ee8635-e36c-49ff-99e6-3d37c1959d42}">
 		<property name="assetPath">
-			<value>BBC Radio 1Xtra - 1Xtra Breakfast with Nadia Jae.mp3</value>
+			<value>Steve/BBC Radio 1Xtra - 1Xtra Breakfast with Nadia Jae.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

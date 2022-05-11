@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{3cd80662-b875-42cc-a362-81083cb637d1}">
 		<property name="assetPath">
-			<value>BBC Radio 1Xtra - Reece Parkinson (Sian Anderson sits in).mp3</value>
+			<value>Steve/BBC Radio 1Xtra - Reece Parkinson (Sian Anderson sits in).mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

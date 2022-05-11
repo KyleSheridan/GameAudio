@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{e83339ad-b395-4872-be61-e4d8b7e67485}">
+		<property name="name">
+			<value>OutsideInside Church</value>
+		</property>
+		<relationship name="folder">
+			<destination>{3617ec72-b569-46f3-8025-5cf3590b5a1e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e5a12085-eb8b-488d-8fb3-6f22f2492d46}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e5a12085-eb8b-488d-8fb3-6f22f2492d46}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

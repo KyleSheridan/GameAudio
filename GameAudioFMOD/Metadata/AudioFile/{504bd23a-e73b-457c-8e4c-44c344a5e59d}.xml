@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{504bd23a-e73b-457c-8e4c-44c344a5e59d}">
 		<property name="assetPath">
-			<value>BBC Radio One - Early Breakfast with Matty Chiabi.mp3</value>
+			<value>Steve/BBC Radio One - Early Breakfast with Matty Chiabi.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

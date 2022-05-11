@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{8ece308f-c7df-400a-be48-005aba63afbf}">
 		<property name="assetPath">
-			<value>BBC Radio One - Radio 1's Future Sounds with Clara Amfo.mp3</value>
+			<value>Steve/BBC Radio One - Radio 1's Future Sounds with Clara Amfo.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

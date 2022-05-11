@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{a207035a-0c86-47e8-a140-98c106b24e45}">
 		<property name="assetPath">
-			<value>BBC Radio One - Breakfast with Greg James.mp3</value>
+			<value>Steve/BBC Radio One - Breakfast with Greg James.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
