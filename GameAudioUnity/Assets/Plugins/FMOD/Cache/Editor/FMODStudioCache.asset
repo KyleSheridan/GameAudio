@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Vehicles.bank
   Name: Vehicles
   StudioPath: bank:/Vehicles
-  lastModified: 637879110757006806
+  lastModified: 637879118060137614
   FileSizes:
   - Name: Desktop
     Value: 90752
@@ -496,7 +496,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637879110716003871
+  lastModified: 637879122812024301
   FileSizes:
   - Name: Desktop
     Value: 24992
@@ -516,10 +516,10 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/House.bank
   Name: House
   StudioPath: bank:/House
-  lastModified: 637879110715525572
+  lastModified: 637879122812014301
   FileSizes:
   - Name: Desktop
-    Value: 774272
+    Value: 1059232
   Exists: 1
 --- !u!114 &-1741219793595510536
 MonoBehaviour:
@@ -593,7 +593,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Ambience Bank.bank
   Name: Ambience Bank
   StudioPath: bank:/Ambience Bank
-  lastModified: 637879110704143102
+  lastModified: 637879122807898596
   FileSizes:
   - Name: Desktop
     Value: 2305984
@@ -696,10 +696,10 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Church.bank
   Name: Church
   StudioPath: bank:/Church
-  lastModified: 637879110712138824
+  lastModified: 637879122811889282
   FileSizes:
   - Name: Desktop
-    Value: 28666208
+    Value: 28665952
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -752,12 +752,13 @@ MonoBehaviour:
   - {fileID: -7979731800474320656}
   - {fileID: 2087416456067503086}
   - {fileID: -6006152547038877508}
+  - {fileID: 1078375454475591584}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2419417729037082699}
   StringsBanks:
   - {fileID: 1086247547052257025}
-  cacheTime: 637879110757006806
+  cacheTime: 637879122823381689
   cacheVersion: 10
 --- !u!114 &141746237745607076
 MonoBehaviour:
@@ -774,7 +775,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Bar.bank
   Name: Bar
   StudioPath: bank:/Bar
-  lastModified: 637879110708538771
+  lastModified: 637879122809894072
   FileSizes:
   - Name: Desktop
     Value: 30122784
@@ -806,6 +807,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 8000
+--- !u!114 &1078375454475591584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: 
+  Guid:
+    Data1: -2060242949
+    Data2: 1314605014
+    Data3: 1753917119
+    Data4: 544726396
+  Banks:
+  - {fileID: -1884777055179631034}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8168
 --- !u!114 &1086247547052257025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -821,7 +849,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637879110716003871
+  lastModified: 637879122823381689
   FileSizes:
   - Name: Desktop
     Value: 3088
@@ -841,7 +869,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/School.bank
   Name: School
   StudioPath: bank:/School
-  lastModified: 637879110755710409
+  lastModified: 637879122764095660
   FileSizes:
   - Name: Desktop
     Value: 4645728
@@ -996,10 +1024,10 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Radio.bank
   Name: Radio
   StudioPath: bank:/Radio
-  lastModified: 637879110729496431
+  lastModified: 637879122817955332
   FileSizes:
   - Name: Desktop
-    Value: 96554112
+    Value: 96554496
   Exists: 1
 --- !u!114 &3604066993859699034
 MonoBehaviour:
@@ -1043,7 +1071,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Hardware Store.bank
   Name: Hardware Store
   StudioPath: bank:/Hardware Store
-  lastModified: 637879110713137827
+  lastModified: 637879118043199787
   FileSizes:
   - Name: Desktop
     Value: 4615936
