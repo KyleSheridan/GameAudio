@@ -15,11 +15,16 @@ public class FadeToBlack : MonoBehaviour
 
     public CanvasGroup blackScreen;
 
-    public float screenFadeSpeed = 10f;
-    public float radioFadeSpeed = 10f;
+    public float screenFadeSpeed = 1f;
+    public float radioFadeSpeed = 0.001f;
+
+    FMOD.Studio.Bus worldSounds;
 
     bool fadeIn = false;
     bool fadeOut = false;
+
+    bool fadeSoundIn = false;
+    bool fadeSoundOut = false;
 
     private float desiredVolume;
     private float currentVolume;
@@ -39,6 +44,8 @@ public class FadeToBlack : MonoBehaviour
     private void Start()
     {
         radioEvent = radioAudio.EventInstance;
+
+        worldSounds = FMODUnity.RuntimeManager.GetBus("bus:/Music");
     }
 
     void Update()
@@ -46,11 +53,6 @@ public class FadeToBlack : MonoBehaviour
         if (fadeIn)
         {
             blackScreen.alpha -= screenFadeSpeed * Time.deltaTime;
-            currentVolume += radioFadeSpeed * Time.deltaTime;
-
-            if (currentVolume > desiredVolume) currentVolume = desiredVolume;
-
-            radioEvent.setParameterByName("RadioVolume", currentVolume);
             if(blackScreen.alpha <= 0)
             {
                 blackScreen.alpha = 0;
@@ -60,9 +62,6 @@ public class FadeToBlack : MonoBehaviour
         else if (fadeOut)
         {
             blackScreen.alpha += screenFadeSpeed * Time.deltaTime;
-            currentVolume -= radioFadeSpeed * Time.deltaTime;
-
-            radioEvent.setParameterByName("RadioVolume", currentVolume);
 
             if (blackScreen.alpha >= 1)
             {
@@ -70,20 +69,63 @@ public class FadeToBlack : MonoBehaviour
                 fadeOut = false;
             }
         }
+
+        if (fadeSoundIn)
+        {
+            currentVolume += radioFadeSpeed * Time.deltaTime;
+
+            if (currentVolume > desiredVolume)
+            {
+                currentVolume = desiredVolume;
+                worldSounds.setVolume(currentVolume);
+                return;
+            }
+
+            worldSounds.setVolume(currentVolume);
+            //radioEvent.setParameterByName("RadioVolume", currentVolume);
+        }
+        else if (fadeSoundOut)
+        {
+            currentVolume -= radioFadeSpeed * Time.deltaTime;
+
+            if (currentVolume < 0)
+            {
+                currentVolume = 0;
+                worldSounds.setVolume(currentVolume);
+                return;
+            }
+
+            worldSounds.setVolume(currentVolume);
+           // radioEvent.setParameterByName("RadioVolume", currentVolume);
+        }
     }
 
     public void FadeIn()
     {
         fadeIn = true;
         fadeOut = false;
+        FadeSoundIn();
     }
 
     public void FadeOut()
     {
         fadeOut = true;
         fadeIn = false;
+    }
 
-        radioEvent.getParameterByName("RadioVolume", out desiredVolume);
+    public void FadeSoundIn()
+    {
+        fadeSoundIn = true;
+        fadeSoundOut = false;
+        currentVolume = 0;
+    }
+
+    public void FadeSoundOut()
+    {
+        fadeSoundOut = true;
+        fadeSoundIn = false;
+
+        worldSounds.getVolume(out desiredVolume);
         currentVolume = desiredVolume;
     }
 }

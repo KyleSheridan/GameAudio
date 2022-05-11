@@ -13,10 +13,6 @@ public class HouseParameterFunctions : MonoBehaviour
 
     public void PianoChangeModifiers()
     {
-        ActivityManager.Instance.currentActivity.modifiers[0].SetAmount(5);
-
-        Debug.Log(ActivityManager.Instance.currentActivity.modifiers[0].amount);
-
         ActivityManager.Instance.currentActivity.modifiers.Add(new StatModifier(StatType.Intelligence, 1));
     }
 }

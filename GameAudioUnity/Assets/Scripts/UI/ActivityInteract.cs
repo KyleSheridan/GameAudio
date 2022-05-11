@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ActivityInteract : MonoBehaviour
 {
+    public string menuSoundsName;
+
     public List<ActivityInfo> activities;
 
     private void OnTriggerEnter(Collider collider)
@@ -20,7 +22,7 @@ public class ActivityInteract : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.E) && !ActivityManager.Instance.menuOpen)
             {
-                ActivityManager.Instance.OpenMenu(activities);
+                ActivityManager.Instance.OpenMenu(activities, menuSoundsName);
             }
         }
     }
