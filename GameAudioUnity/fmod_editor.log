@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000001DCD55FD178 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0000013AD4F61F38 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -20,45 +20,10 @@
 [LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
 [LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
 [LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
+[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
 [LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DBF35BBD98
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DBF35BBD98
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DCA35B4D48
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DCA35B4D48
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DCA35B4688
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DCA35B4688
-[LOG] SoundI::release                          : Ambience Without Birds (000001DCA35B24C8)
-[LOG] SoundI::release                          :     Ambience Without Birds (000001DCA2CB6D78)
-[LOG] SoundI::release                          :     Ambience Without Birds (000001DCA35B4D48)
-[LOG] SoundI::release                          : Ambience With Birds (000001DCA35B3758)
-[LOG] SoundI::release                          :     Ambience With Birds (000001DCA2CB78D8)
-[LOG] SoundI::release                          :     Ambience With Birds (000001DCA35B4688)
-[LOG] SoundI::release                          : BBC Radio One - Scott Mills (Dean and Katie Sit In) Afternoon Show (000001DBF35BC0F8)
-[LOG] SoundI::release                          :     BBC Radio One - Scott Mills (Dean and Katie Sit In) Afternoon Show (000001DBF19510B8)
-[LOG] SoundI::release                          :     BBC Radio One - Scott Mills (Dean and Katie Sit In) Afternoon Show (000001DBF35BBD98)
-[LOG] SoundI::release                          : Noise (000001DCA35B6188)
-[LOG] SoundI::release                          :     Noise (000001DCA2CB7DB8)
-[LOG] SoundI::release                          :     Noise (000001DCA35B8198)
-[LOG] SoundI::release                          : BBC Radio 1Xtra - Ace - Midday Mix from DJ Frisky (000001DBF35BD538)
-[LOG] SoundI::release                          :     BBC Radio 1Xtra - Ace - Midday Mix from DJ Frisky (000001DBF1951C18)
-[LOG] SoundI::release                          :     BBC Radio 1Xtra - Ace - Midday Mix from DJ Frisky (000001DBF35BC458)
-[LOG] SoundI::release                          :  (000001DC76437428)
-[LOG] SoundI::release                          :     SFXVolumeTest (000001DBF1FE65E8)
-[LOG] SoundI::release                          :  (000001DC76437598)
-[LOG] SoundI::release                          :     [YT2mp3.info] - Car Passing Sound Effects (320kbps) - Trimmed - Trimmed (000001DBF1950218)
-[LOG] SoundI::release                          :  (000001DC76438568)
-[LOG] SoundI::release                          :     Car-Racing-Sounds-A3-www.fesliyanstudios.com - Trimmed (000001DBF1951598)
-[LOG] Thread::callback                         : FMOD Studio update thread finished.
-[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
-[LOG] LiveUpdate::release                      : 
-[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
-[LOG] Thread::callback                         : FMOD stream thread finished.
-[LOG] Thread::callback                         : FMOD mixer thread finished.
-[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] SystemI::close                           : Closed.
+[LOG] Manager::readBank                        : fileversion = 141, compatVersion = 140 (oldest = 44, newest = 141)
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 
@@ -66,5 +31,3 @@
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] SystemI::close                           : Closed.
-[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
-[LOG] Thread::callback                         : FMOD file thread finished.
