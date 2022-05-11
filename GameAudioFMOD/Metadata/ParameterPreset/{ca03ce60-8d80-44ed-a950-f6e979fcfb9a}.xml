@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{ca03ce60-8d80-44ed-a950-f6e979fcfb9a}">
+		<property name="name">
+			<value>Pick up displacement</value>
+		</property>
+		<relationship name="folder">
+			<destination>{3617ec72-b569-46f3-8025-5cf3590b5a1e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{4cc5f62c-7723-4ae6-a882-17be3f1900ab}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{4cc5f62c-7723-4ae6-a882-17be3f1900ab}">
+		<property name="maximum">
+			<value>20</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{a6df7099-3cde-48dc-8464-2dc0d74a90be}">
+		<property name="assetPath">
+			<value>Kyle/vinylPopCrackle.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>8.6658276643990924</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2b188c01-3b4c-4c79-ba34-49adcacbd336}</destination>
+		</relationship>
+	</object>
+</objects>

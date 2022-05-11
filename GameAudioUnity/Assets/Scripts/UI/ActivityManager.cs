@@ -56,6 +56,7 @@ public class ActivityManager : MonoBehaviour
     private List<ActivityInfo> activityList;
 
     public FMOD.Studio.EventInstance eventInstance { get; private set; }
+    public FMOD.Studio.EventInstance menuEventInstance { get; private set; }
 
     private void Awake()
     {
@@ -82,9 +83,13 @@ public class ActivityManager : MonoBehaviour
         activityDescriptionText.text = activityList[index].description;
     }
 
-    public void OpenMenu(List<ActivityInfo> activities)
+    public void OpenMenu(List<ActivityInfo> activities, string menuSound)
     {
         if (activitySelectMenu.activeInHierarchy || menuOpen) { return; }
+
+        menuEventInstance = FMODUnity.RuntimeManager.CreateInstance(menuSound);
+
+        menuEventInstance.start();
 
         activityList = activities;
 
@@ -95,6 +100,8 @@ public class ActivityManager : MonoBehaviour
             buttons[i].SetActive(true);
             texts[i].text = activityList[i].title;
         }
+
+        FadeToBlack.Intstance.FadeSoundOut();
 
         SetMenuOpen(true);
     }
@@ -145,6 +152,8 @@ public class ActivityManager : MonoBehaviour
         activityMenu.SetActive(false);
 
         SetMenuOpen(false);
+
+        menuEventInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
 
         activityOpen = false;
     }
