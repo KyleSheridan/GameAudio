@@ -63,7 +63,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Church Service.bank
   Name: Church Service
   StudioPath: bank:/Church Service
-  lastModified: 637878741794363251
+  lastModified: 637878830321151233
   FileSizes:
   - Name: Desktop
     Value: 28454112
@@ -138,7 +138,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637878741788597251
+  lastModified: 637878830323101380
   FileSizes:
   - Name: Desktop
     Value: 1856
@@ -208,7 +208,7 @@ MonoBehaviour:
   - {fileID: 720002707084023763}
   StringsBanks:
   - {fileID: -1815504499946847551}
-  cacheTime: 637878741794363251
+  cacheTime: 637878830337356330
   cacheVersion: 10
 --- !u!114 &207477013916573463
 MonoBehaviour:
@@ -253,7 +253,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637878741788567199
+  lastModified: 637878422888061965
   FileSizes:
   - Name: Desktop
     Value: 24416
@@ -354,7 +354,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/House.bank
   Name: House
   StudioPath: bank:/House
-  lastModified: 637878741788294744
+  lastModified: 637878422887610855
   FileSizes:
   - Name: Desktop
     Value: 216064
@@ -374,7 +374,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Church.bank
   Name: Church
   StudioPath: bank:/Church
-  lastModified: 637878741787044424
+  lastModified: 637878830323061642
   FileSizes:
   - Name: Desktop
     Value: 28666208
@@ -445,7 +445,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Ambience Bank.bank
   Name: Ambience Bank
   StudioPath: bank:/Ambience Bank
-  lastModified: 637878741785432422
+  lastModified: 637878830319094622
   FileSizes:
   - Name: Desktop
     Value: 2305984
@@ -465,7 +465,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Vehicles.bank
   Name: Vehicles
   StudioPath: bank:/Vehicles
-  lastModified: 637878741793120410
+  lastModified: 637878422905011243
   FileSizes:
   - Name: Desktop
     Value: 39584
@@ -533,7 +533,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Radio.bank
   Name: Radio
   StudioPath: bank:/Radio
-  lastModified: 637878741792902189
+  lastModified: 637878830337356330
   FileSizes:
   - Name: Desktop
     Value: 96554112
@@ -610,7 +610,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Church Menu Hallelujah.bank
   Name: Church Menu Hallelujah
   StudioPath: bank:/Church Menu Hallelujah
-  lastModified: 637878741793140245
+  lastModified: 637878830319134374
   FileSizes:
   - Name: Desktop
     Value: 494
