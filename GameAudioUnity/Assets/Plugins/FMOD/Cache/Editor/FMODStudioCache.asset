@@ -1,109 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8738431260222382937
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Vehicle SFX/Stationary bus or pick up
-  m_EditorClassIdentifier: 
-  Path: event:/Vehicle SFX/Stationary bus or pick up
-  Guid:
-    Data1: 213757300
-    Data2: 1083268029
-    Data3: 630989470
-    Data4: -560626770
-  Banks:
-  - {fileID: 4350871237502974918}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3000
---- !u!114 &-8333995225865368107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Moving Pick up/Pick up displacement
-  m_EditorClassIdentifier: 
-  Name: Pick up displacement
-  StudioPath: 
-  Min: 0
-  Max: 20
-  Default: 0
-  ID:
-    data1: 3791440727
-    data2: 1254988075
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &-8273001018588214431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Vehicle SFX/Moving Pick up
-  m_EditorClassIdentifier: 
-  Path: event:/Vehicle SFX/Moving Pick up
-  Guid:
-    Data1: -979616730
-    Data2: 1326922995
-    Data3: 1570022030
-    Data4: 1455771170
-  Banks:
-  - {fileID: 4350871237502974918}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -8333995225865368107}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-5920627120715983308
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Church Service External/TimeOfDay
-  m_EditorClassIdentifier: 
-  Name: TimeOfDay
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 546433781
-    data2: 2437154329
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &-4180405142029010828
+--- !u!114 &-9158680210272032960
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -113,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Church Service.bank
+  m_Name: bank:/Church Menu Hallelujah.bank
   m_EditorClassIdentifier: 
-  Path: ../GameAudioFMOD/Build/Desktop/Church Service.bank
-  Name: Church Service
-  StudioPath: bank:/Church Service
-  lastModified: 637878919618610989
+  Path: ../GameAudioFMOD/Build/Desktop/Church Menu Hallelujah.bank
+  Name: Church Menu Hallelujah
+  StudioPath: bank:/Church Menu Hallelujah
+  lastModified: 637878973930000000
   FileSizes:
   - Name: Desktop
-    Value: 28454112
+    Value: 494
   Exists: 1
---- !u!114 &-3728741011950231641
+--- !u!114 &-8981741372305943715
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -133,80 +30,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambience/Ambience
+  m_Name: event:/Hardware Store/Buy Items
   m_EditorClassIdentifier: 
-  Path: event:/Ambience/Ambience
+  Path: event:/Hardware Store/Buy Items
   Guid:
-    Data1: -1860126097
-    Data2: 1138657991
-    Data3: 1969944249
-    Data4: -2113509403
+    Data1: 524000468
+    Data2: 1097078868
+    Data3: -116752505
+    Data4: 1322064644
   Banks:
-  - {fileID: 4332051324680803267}
+  - {fileID: -4251432965062457560}
   IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 9119998240997184317}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 79438
---- !u!114 &-3166554773163738811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI/SFXVolumeTest
-  m_EditorClassIdentifier: 
-  Path: event:/UI/SFXVolumeTest
-  Guid:
-    Data1: -1138528880
-    Data2: 1169671519
-    Data3: -992809078
-    Data4: -268607956
-  Banks:
-  - {fileID: 720002707084023763}
-  IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 252
---- !u!114 &-2757225552864323692
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Vehicle SFX/Moving Convertible
-  m_EditorClassIdentifier: 
-  Path: event:/Vehicle SFX/Moving Convertible
-  Guid:
-    Data1: 2028492022
-    Data2: 1272597549
-    Data3: -1255554172
-    Data4: -149932488
-  Banks:
-  - {fileID: 4350871237502974918}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 169582578170319965}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-1815504499946847551
+  Length: 30000
+--- !u!114 &-8170304831334151162
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -221,342 +62,12 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637878919629904688
+  lastModified: 637878973940000000
   FileSizes:
   - Name: Desktop
-    Value: 2110
+    Value: 2410
   Exists: 1
---- !u!114 &-1726730196812661285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Moving bus/Bus Displacement
-  m_EditorClassIdentifier: 
-  Name: Bus Displacement
-  StudioPath: 
-  Min: 0
-  Max: 20
-  Default: 0
-  ID:
-    data1: 2894175657
-    data2: 176810142
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: -1815504499946847551}
-  - {fileID: 4332051324680803267}
-  - {fileID: 3037911297252325763}
-  - {fileID: 720002707084023763}
-  - {fileID: 6348180522838777445}
-  - {fileID: 3006674014322931017}
-  - {fileID: 4350871237502974918}
-  - {fileID: 7960969057342462489}
-  - {fileID: -4180405142029010828}
-  EditorEvents:
-  - {fileID: -3728741011950231641}
-  - {fileID: 207477013916573463}
-  - {fileID: 7907735019377410799}
-  - {fileID: 1026926587701421563}
-  - {fileID: 3169604591548877629}
-  - {fileID: -3166554773163738811}
-  - {fileID: 7948702313288751826}
-  - {fileID: 2639173143506991147}
-  - {fileID: 8295083182609678513}
-  - {fileID: -2757225552864323692}
-  - {fileID: -8273001018588214431}
-  - {fileID: -8738431260222382937}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: 720002707084023763}
-  StringsBanks:
-  - {fileID: -1815504499946847551}
-  cacheTime: 637878919643311896
-  cacheVersion: 10
---- !u!114 &169582578170319965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Moving Convertible/Distance from car
-  m_EditorClassIdentifier: 
-  Name: Distance from car
-  StudioPath: 
-  Min: 0
-  Max: 20
-  Default: 0
-  ID:
-    data1: 3522168613
-    data2: 3218340014
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &207477013916573463
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/House/ProceduralPiano
-  m_EditorClassIdentifier: 
-  Path: event:/House/ProceduralPiano
-  Guid:
-    Data1: 406908238
-    Data2: 1083547354
-    Data3: 1108943270
-    Data4: -2139232728
-  Banks:
-  - {fileID: 3006674014322931017}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: 8480927963677313331}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 8000
---- !u!114 &720002707084023763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: ../GameAudioFMOD/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 637878919629879607
-  FileSizes:
-  - Name: Desktop
-    Value: 24416
-  Exists: 1
---- !u!114 &1026926587701421563
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Church/Church Bells
-  m_EditorClassIdentifier: 
-  Path: event:/Church/Church Bells
-  Guid:
-    Data1: 1011781146
-    Data2: 1247831383
-    Data3: -1912262271
-    Data4: -1994774713
-  Banks:
-  - {fileID: 3037911297252325763}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 4977911738534064055}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &1442184253902906234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Shows/TimeOfDay
-  m_EditorClassIdentifier: 
-  Name: TimeOfDay
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 546433781
-    data2: 2437154329
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &2639173143506991147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Church/Church Service External
-  m_EditorClassIdentifier: 
-  Path: event:/Church/Church Service External
-  Guid:
-    Data1: 722502092
-    Data2: 1297864987
-    Data3: -565125206
-    Data4: -585602238
-  Banks:
-  - {fileID: -4180405142029010828}
-  - {fileID: 3037911297252325763}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters:
-  - {fileID: -5920627120715983308}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &3006674014322931017
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/House.bank
-  m_EditorClassIdentifier: 
-  Path: ../GameAudioFMOD/Build/Desktop/House.bank
-  Name: House
-  StudioPath: bank:/House
-  lastModified: 637878919629407455
-  FileSizes:
-  - Name: Desktop
-    Value: 216064
-  Exists: 1
---- !u!114 &3037911297252325763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Church.bank
-  m_EditorClassIdentifier: 
-  Path: ../GameAudioFMOD/Build/Desktop/Church.bank
-  Name: Church
-  StudioPath: bank:/Church
-  lastModified: 637878919622560853
-  FileSizes:
-  - Name: Desktop
-    Value: 28666208
-  Exists: 1
---- !u!114 &3169604591548877629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Menu Click/Menu Click
-  m_EditorClassIdentifier: 
-  Path: event:/Menu Click/Menu Click
-  Guid:
-    Data1: 127987514
-    Data2: 1206142810
-    Data3: -1183505217
-    Data4: -294961652
-  Banks:
-  - {fileID: 720002707084023763}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 211
---- !u!114 &3221002992195391456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Shows/RadioVolume
-  m_EditorClassIdentifier: 
-  Name: RadioVolume
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 1854019509
-    data2: 3102033053
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
---- !u!114 &4332051324680803267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Ambience Bank.bank
-  m_EditorClassIdentifier: 
-  Path: ../GameAudioFMOD/Build/Desktop/Ambience Bank.bank
-  Name: Ambience Bank
-  StudioPath: bank:/Ambience Bank
-  lastModified: 637878919614431720
-  FileSizes:
-  - Name: Desktop
-    Value: 2305984
-  Exists: 1
---- !u!114 &4350871237502974918
+--- !u!114 &-6840702619120713707
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -571,12 +82,12 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Vehicles.bank
   Name: Vehicles
   StudioPath: bank:/Vehicles
-  lastModified: 637878919643311896
+  lastModified: 637878973960000000
   FileSizes:
   - Name: Desktop
-    Value: 90976
+    Value: 39584
   Exists: 1
---- !u!114 &4977911738534064055
+--- !u!114 &-6814174009556501001
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -585,22 +96,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Church Bells/TimeOfDay
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
   m_EditorClassIdentifier: 
-  Name: TimeOfDay
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 546433781
-    data2: 2437154329
-  Type: 0
-  IsGlobal: 0
-  Labels: []
+  Path: ../GameAudioFMOD/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637878973940000000
+  FileSizes:
+  - Name: Desktop
+    Value: 24416
   Exists: 1
---- !u!114 &5790692468059234187
+--- !u!114 &-6800345126363096376
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -624,7 +131,82 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &6348180522838777445
+--- !u!114 &-6556110642598201931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Hardware Store/Item Repair
+  m_EditorClassIdentifier: 
+  Path: event:/Hardware Store/Item Repair
+  Guid:
+    Data1: 2111575021
+    Data2: 1239591542
+    Data3: 1769812370
+    Data4: -1914756846
+  Banks:
+  - {fileID: -4251432965062457560}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 30000
+--- !u!114 &-5700694941506696101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Moving Convertible/Distance from car
+  m_EditorClassIdentifier: 
+  Name: Distance from car
+  StudioPath: 
+  Min: 0
+  Max: 0.1
+  Default: 0
+  ID:
+    data1: 3522168613
+    data2: 3218340014
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-5132116704216839545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/School Playground/TimeOfDay
+  m_EditorClassIdentifier: 
+  Name: TimeOfDay
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 546433781
+    data2: 2437154329
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-5109256006970910935
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -639,12 +221,123 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Radio.bank
   Name: Radio
   StudioPath: bank:/Radio
-  lastModified: 637878919642608740
+  lastModified: 637878973950000000
   FileSizes:
   - Name: Desktop
-    Value: 96554112
+    Value: 96555488
   Exists: 1
---- !u!114 &7907735019377410799
+--- !u!114 &-4934455247381329045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Church Service.bank
+  m_EditorClassIdentifier: 
+  Path: ../GameAudioFMOD/Build/Desktop/Church Service.bank
+  Name: Church Service
+  StudioPath: bank:/Church Service
+  lastModified: 637878973940000000
+  FileSizes:
+  - Name: Desktop
+    Value: 28454624
+  Exists: 1
+--- !u!114 &-4251432965062457560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Hardware Store.bank
+  m_EditorClassIdentifier: 
+  Path: ../GameAudioFMOD/Build/Desktop/Hardware Store.bank
+  Name: Hardware Store
+  StudioPath: bank:/Hardware Store
+  lastModified: 637878974020000000
+  FileSizes:
+  - Name: Desktop
+    Value: 4615936
+  Exists: 1
+--- !u!114 &-4079131345504489700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience Bank.bank
+  m_EditorClassIdentifier: 
+  Path: ../GameAudioFMOD/Build/Desktop/Ambience Bank.bank
+  Name: Ambience Bank
+  StudioPath: bank:/Ambience Bank
+  lastModified: 637878973930000000
+  FileSizes:
+  - Name: Desktop
+    Value: 2305920
+  Exists: 1
+--- !u!114 &-3901118588793219914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambience/AmbienceLevel
+  m_EditorClassIdentifier: 
+  Name: AmbienceLevel
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 960716189
+    data2: 1754541615
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3558198911908134252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/School/English Lesson
+  m_EditorClassIdentifier: 
+  Path: event:/School/English Lesson
+  Guid:
+    Data1: -104794351
+    Data2: 1133167957
+    Data3: 1717580191
+    Data4: -819186373
+  Banks:
+  - {fileID: 7158489111473559143}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
+--- !u!114 &-3215630840075257710
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -663,18 +356,150 @@ MonoBehaviour:
     Data3: 910249653
     Data4: 1603043064
   Banks:
-  - {fileID: 6348180522838777445}
+  - {fileID: -5109256006970910935}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 3221002992195391456}
-  - {fileID: 1442184253902906234}
-  - {fileID: 5790692468059234187}
+  - {fileID: 6498864213411346200}
+  - {fileID: 2418987125823691215}
+  - {fileID: -6800345126363096376}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &7948702313288751826
+--- !u!114 &-2568908089724628742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/SFXVolumeTest
+  m_EditorClassIdentifier: 
+  Path: event:/UI/SFXVolumeTest
+  Guid:
+    Data1: -1138528880
+    Data2: 1169671519
+    Data3: -992809078
+    Data4: -268607956
+  Banks:
+  - {fileID: -6814174009556501001}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 252
+--- !u!114 &-2287340472955446836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vehicle SFX/Moving Convertible
+  m_EditorClassIdentifier: 
+  Path: event:/Vehicle SFX/Moving Convertible
+  Guid:
+    Data1: 2028492022
+    Data2: 1272597549
+    Data3: -1255554172
+    Data4: -149932488
+  Banks:
+  - {fileID: -6840702619120713707}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -5700694941506696101}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-536896270349775452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Menu Click/Menu Click
+  m_EditorClassIdentifier: 
+  Path: event:/Menu Click/Menu Click
+  Guid:
+    Data1: 127987514
+    Data2: 1206142810
+    Data3: -1183505217
+    Data4: -294961652
+  Banks:
+  - {fileID: -6814174009556501001}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 211
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -8170304831334151162}
+  - {fileID: -4079131345504489700}
+  - {fileID: -9158680210272032960}
+  - {fileID: -4934455247381329045}
+  - {fileID: 8349724004836085132}
+  - {fileID: -4251432965062457560}
+  - {fileID: 8933012520017804334}
+  - {fileID: -6814174009556501001}
+  - {fileID: -5109256006970910935}
+  - {fileID: 7158489111473559143}
+  - {fileID: -6840702619120713707}
+  EditorEvents:
+  - {fileID: 4819910760649273394}
+  - {fileID: 6900971901529917781}
+  - {fileID: 6935555977077721824}
+  - {fileID: 735630598325783440}
+  - {fileID: -8981741372305943715}
+  - {fileID: -6556110642598201931}
+  - {fileID: 8510051445330784900}
+  - {fileID: -536896270349775452}
+  - {fileID: -2568908089724628742}
+  - {fileID: -3215630840075257710}
+  - {fileID: -3558198911908134252}
+  - {fileID: 6922359178103106016}
+  - {fileID: 4551603971806147717}
+  - {fileID: 3061882499082367009}
+  - {fileID: 1233725502062200493}
+  - {fileID: 1129840078120597016}
+  - {fileID: 2743992767032056835}
+  - {fileID: -2287340472955446836}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -6814174009556501001}
+  StringsBanks:
+  - {fileID: -8170304831334151162}
+  cacheTime: 637878974020000000
+  cacheVersion: 10
+--- !u!114 &735630598325783440
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -693,7 +518,7 @@ MonoBehaviour:
     Data3: -1097715064
     Data4: 1771048845
   Banks:
-  - {fileID: 3037911297252325763}
+  - {fileID: 8349724004836085132}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -701,27 +526,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 9639
---- !u!114 &7960969057342462489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Church Menu Hallelujah.bank
-  m_EditorClassIdentifier: 
-  Path: ../GameAudioFMOD/Build/Desktop/Church Menu Hallelujah.bank
-  Name: Church Menu Hallelujah
-  StudioPath: bank:/Church Menu Hallelujah
-  lastModified: 637878919614481371
-  FileSizes:
-  - Name: Desktop
-    Value: 494
-  Exists: 1
---- !u!114 &8295083182609678513
+--- !u!114 &1129840078120597016
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -731,25 +536,130 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Vehicle SFX/Moving bus
+  m_Name: event:/School/School Playground
   m_EditorClassIdentifier: 
-  Path: event:/Vehicle SFX/Moving bus
+  Path: event:/School/School Playground
   Guid:
-    Data1: 872392854
-    Data2: 1171643369
-    Data3: -27194182
-    Data4: 1079240864
+    Data1: -877133884
+    Data2: 1214343175
+    Data3: 485338813
+    Data4: -774458997
   Banks:
-  - {fileID: 4350871237502974918}
-  IsStream: 0
+  - {fileID: 7158489111473559143}
+  IsStream: 1
   Is3D: 1
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters:
-  - {fileID: -1726730196812661285}
+  - {fileID: -5132116704216839545}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &8480927963677313331
+--- !u!114 &1233725502062200493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/School/Break Time
+  m_EditorClassIdentifier: 
+  Path: event:/School/Break Time
+  Guid:
+    Data1: 52959403
+    Data2: 1119768467
+    Data3: -1557547083
+    Data4: -1707442451
+  Banks:
+  - {fileID: 7158489111473559143}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6808
+--- !u!114 &2418987125823691215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Shows/TimeOfDay
+  m_EditorClassIdentifier: 
+  Name: TimeOfDay
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 546433781
+    data2: 2437154329
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &2743992767032056835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/School/Lunch
+  m_EditorClassIdentifier: 
+  Path: event:/School/Lunch
+  Guid:
+    Data1: 1370835429
+    Data2: 1291862945
+    Data3: -431133012
+    Data4: 1986907657
+  Banks:
+  - {fileID: 7158489111473559143}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7012
+--- !u!114 &3061882499082367009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/School/Music Lesson
+  m_EditorClassIdentifier: 
+  Path: event:/School/Music Lesson
+  Guid:
+    Data1: -17587293
+    Data2: 1147736281
+    Data3: 386987140
+    Data4: 1214150502
+  Banks:
+  - {fileID: 7158489111473559143}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &3882878168760187812
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -773,7 +683,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &9119998240997184317
+--- !u!114 &3963774093347456619
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -783,17 +693,292 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Ambience/AmbienceLevel
+  m_Name: parameter:/Church Bells/TimeOfDay
   m_EditorClassIdentifier: 
-  Name: AmbienceLevel
+  Name: TimeOfDay
   StudioPath: 
   Min: 0
   Max: 1
-  Default: 1
+  Default: 0
   ID:
-    data1: 960716189
-    data2: 1754541615
+    data1: 546433781
+    data2: 2437154329
   Type: 0
   IsGlobal: 0
   Labels: []
+  Exists: 1
+--- !u!114 &4551603971806147717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/School/Print off Homework
+  m_EditorClassIdentifier: 
+  Path: event:/School/Print off Homework
+  Guid:
+    Data1: 409508515
+    Data2: 1327720996
+    Data3: -584548975
+    Data4: 670324508
+  Banks:
+  - {fileID: 7158489111473559143}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12000
+--- !u!114 &4819910760649273394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Ambience
+  Guid:
+    Data1: -1860126097
+    Data2: 1138657991
+    Data3: 1969944249
+    Data4: -2113509403
+  Banks:
+  - {fileID: -4079131345504489700}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3901118588793219914}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 79438
+--- !u!114 &6498864213411346200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Shows/RadioVolume
+  m_EditorClassIdentifier: 
+  Name: RadioVolume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1854019509
+    data2: 3102033053
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &6842654387492150565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Church Service External/TimeOfDay
+  m_EditorClassIdentifier: 
+  Name: TimeOfDay
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 546433781
+    data2: 2437154329
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &6900971901529917781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Church/Church Service External
+  m_EditorClassIdentifier: 
+  Path: event:/Church/Church Service External
+  Guid:
+    Data1: 722502092
+    Data2: 1297864987
+    Data3: -565125206
+    Data4: -585602238
+  Banks:
+  - {fileID: -4934455247381329045}
+  - {fileID: 8349724004836085132}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 6842654387492150565}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6922359178103106016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/School/Sports Lesson
+  m_EditorClassIdentifier: 
+  Path: event:/School/Sports Lesson
+  Guid:
+    Data1: 801847386
+    Data2: 1254295550
+    Data3: -950379388
+    Data4: 1483755171
+  Banks:
+  - {fileID: 7158489111473559143}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6000
+--- !u!114 &6935555977077721824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Church/Church Bells
+  m_EditorClassIdentifier: 
+  Path: event:/Church/Church Bells
+  Guid:
+    Data1: 1011781146
+    Data2: 1247831383
+    Data3: -1912262271
+    Data4: -1994774713
+  Banks:
+  - {fileID: 8349724004836085132}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 3963774093347456619}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7158489111473559143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/School.bank
+  m_EditorClassIdentifier: 
+  Path: ../GameAudioFMOD/Build/Desktop/School.bank
+  Name: School
+  StudioPath: bank:/School
+  lastModified: 637878973970000000
+  FileSizes:
+  - Name: Desktop
+    Value: 4235264
+  Exists: 1
+--- !u!114 &8349724004836085132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Church.bank
+  m_EditorClassIdentifier: 
+  Path: ../GameAudioFMOD/Build/Desktop/Church.bank
+  Name: Church
+  StudioPath: bank:/Church
+  lastModified: 637878973940000000
+  FileSizes:
+  - Name: Desktop
+    Value: 28666720
+  Exists: 1
+--- !u!114 &8510051445330784900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/House/ProceduralPiano
+  m_EditorClassIdentifier: 
+  Path: event:/House/ProceduralPiano
+  Guid:
+    Data1: 406908238
+    Data2: 1083547354
+    Data3: 1108943270
+    Data4: -2139232728
+  Banks:
+  - {fileID: 8933012520017804334}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 3882878168760187812}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &8933012520017804334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/House.bank
+  m_EditorClassIdentifier: 
+  Path: ../GameAudioFMOD/Build/Desktop/House.bank
+  Name: House
+  StudioPath: bank:/House
+  lastModified: 637878973940000000
+  FileSizes:
+  - Name: Desktop
+    Value: 216064
   Exists: 1

@@ -550,16 +550,13 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks:
-  - Master
+  MasterBanks: []
   Banks:
   - Ambience Bank
   - Church
   - Church Menu Hallelujah
   - Church Service
-  - House
-  - Radio
-  - Vehicles
+  - Hardware Store
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
