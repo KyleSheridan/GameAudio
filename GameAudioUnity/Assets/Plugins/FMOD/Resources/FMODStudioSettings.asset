@@ -556,7 +556,9 @@ MonoBehaviour:
   - Ambience Bank
   - Church
   - Church Ext
+  - House
   - Radio
+  - Vehicles
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
