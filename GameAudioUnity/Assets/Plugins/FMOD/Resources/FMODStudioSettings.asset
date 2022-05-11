@@ -554,9 +554,8 @@ MonoBehaviour:
   - Master
   Banks:
   - Ambience Bank
+  - Bar
   - Church
-  - Church Menu Hallelujah
-  - Church Service
   - House
   - Radio
   - Vehicles
