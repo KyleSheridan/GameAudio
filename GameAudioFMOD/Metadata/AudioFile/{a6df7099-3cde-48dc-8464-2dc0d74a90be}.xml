@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{a6df7099-3cde-48dc-8464-2dc0d74a90be}">
 		<property name="assetPath">
-			<value>Kyle/vinylPopCrackle.wav</value>
+			<value>Kyle/House/vinylPopCrackle.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{480a8a72-6462-4862-9944-e38111cb1c7b}">
 		<property name="assetPath">
-			<value>Kyle/PianoKeys/C.wav</value>
+			<value>Kyle/House/PianoKeys/C.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
