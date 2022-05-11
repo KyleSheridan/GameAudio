@@ -14,6 +14,10 @@ public struct ActivityInfo
 
     public int hours;
 
+    public string soundName;
+
+    public float soundTime;
+
     public List<StatModifier> modifiers;
 } 
 
@@ -44,6 +48,8 @@ public class ActivityManager : MonoBehaviour
 
     private ActivityInfo currentActivity;
     private List<ActivityInfo> activityList;
+
+    private FMOD.Studio.EventInstance swing;
 
     private void Awake()
     {
@@ -162,6 +168,32 @@ public class ActivityManager : MonoBehaviour
         }
 
         CloseActivity();
+
+        StartCoroutine(ActivitySound());
+    }
+
+    void PlaySound(string soundName)
+    {
+        swing = FMODUnity.RuntimeManager.CreateInstance(soundName);
+        swing.start();
+        swing.release();
+    }
+
+    private IEnumerator ActivitySound()
+    {
+        menuOpen = true;
+
+        FadeToBlack.Intstance.FadeOut();
+
+        yield return new WaitForSeconds(1f);
+
+        PlaySound(currentActivity.soundName);
+
+        yield return new WaitForSeconds(currentActivity.soundTime);
+
+        FadeToBlack.Intstance.FadeIn();
+
+        menuOpen = false;
     }
 
     private void OnDestroy()
