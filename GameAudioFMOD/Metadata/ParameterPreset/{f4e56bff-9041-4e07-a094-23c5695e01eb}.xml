@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{f4e56bff-9041-4e07-a094-23c5695e01eb}">
+		<property name="name">
+			<value>ChordProgression</value>
+		</property>
+		<relationship name="folder">
+			<destination>{3617ec72-b569-46f3-8025-5cf3590b5a1e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{64f26406-b4cd-4331-b599-33a9d419ef6f}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{64f26406-b4cd-4331-b599-33a9d419ef6f}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>6</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>
