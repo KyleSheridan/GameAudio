@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using TMPro;
 
 [System.Serializable]
 public struct ActivityInfo
 {
+    [Header("Info")]
     public string title;
     [TextArea]
     public string description;
@@ -14,10 +16,14 @@ public struct ActivityInfo
 
     public int hours;
 
+    [Header("Sound")]
     public string soundName;
 
     public float soundTime;
 
+    public UnityEvent parameterFunctions;
+
+    [Header("Effects")]
     public List<StatModifier> modifiers;
 } 
 
@@ -46,10 +52,10 @@ public class ActivityManager : MonoBehaviour
 
     private bool activityOpen = false;
 
-    private ActivityInfo currentActivity;
+    public ActivityInfo currentActivity;
     private List<ActivityInfo> activityList;
 
-    private FMOD.Studio.EventInstance swing;
+    public FMOD.Studio.EventInstance eventInstance { get; private set; }
 
     private void Awake()
     {
@@ -162,36 +168,49 @@ public class ActivityManager : MonoBehaviour
 
         TimeOfDay.Instance.IncreaseTime(currentActivity.hours);
 
+        CloseActivity();
+
+        StartCoroutine(ActivitySound());
+
         for (int i = 0; i < currentActivity.modifiers.Count; i++)
         {
             PlayerStats.Instance.ModifyStat(currentActivity.modifiers[i]);
         }
-
-        CloseActivity();
-
-        StartCoroutine(ActivitySound());
     }
 
-    void PlaySound(string soundName)
+    void PlaySound()
     {
-        swing = FMODUnity.RuntimeManager.CreateInstance(soundName);
-        swing.start();
-        swing.release();
+        eventInstance.start();
+        eventInstance.release();
     }
 
     private IEnumerator ActivitySound()
     {
         menuOpen = true;
 
+        int modifierNum = currentActivity.modifiers.Count;
+
         FadeToBlack.Intstance.FadeOut();
+
+        eventInstance = FMODUnity.RuntimeManager.CreateInstance(currentActivity.soundName);
+
+        if(currentActivity.parameterFunctions != null)
+        {
+            currentActivity.parameterFunctions.Invoke();
+        }
 
         yield return new WaitForSeconds(1f);
 
-        PlaySound(currentActivity.soundName);
+        PlaySound();
 
         yield return new WaitForSeconds(currentActivity.soundTime);
 
         FadeToBlack.Intstance.FadeIn();
+
+        while(currentActivity.modifiers.Count > modifierNum)
+        {
+            currentActivity.modifiers.RemoveAt(currentActivity.modifiers.Count - 1);
+        }
 
         menuOpen = false;
     }

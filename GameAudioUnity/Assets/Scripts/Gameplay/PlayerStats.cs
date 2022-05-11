@@ -17,6 +17,17 @@ public struct StatModifier
 {
     public StatType type;
     public int amount;
+
+    public void SetAmount(int val)
+    {
+        amount = val;
+    }
+
+    public StatModifier(StatType _type, int _amount)
+    {
+        type = _type;
+        amount = _amount;
+    }
 }
 
 public class PlayerStats : MonoBehaviour
@@ -96,7 +107,7 @@ public class PlayerStats : MonoBehaviour
         _intelligence = 1;
         _strength = 1;
         _hunger = 100;
-        _energy = 30;
+        _energy = 100;
 
         ui.SetStatsUI();
     }
