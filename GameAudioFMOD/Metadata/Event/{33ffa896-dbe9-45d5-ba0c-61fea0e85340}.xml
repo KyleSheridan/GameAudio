@@ -36,6 +36,9 @@
 			<destination>{3d9c8505-b87f-44db-9e1f-fd3dc43237c8}</destination>
 			<destination>{5bf7a953-afd5-4194-af7a-d7febd507961}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{56de21af-a112-404c-9ee4-8aa11e389a7e}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{26ef5293-fd10-4e29-8c04-54ce3ec3c7a7}">
 		<relationship name="masterBus">
@@ -239,10 +242,10 @@
 			<value>10.022271714922049</value>
 		</property>
 		<property name="value">
-			<value>5</value>
+			<value>11</value>
 		</property>
 		<property name="curveShape">
-			<value>1</value>
+			<value>-0.422039509</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{da93e48e-dbb7-4af7-a7ac-5f4b9bf79713}">
@@ -250,7 +253,7 @@
 			<value>10.022292548255383</value>
 		</property>
 		<property name="value">
-			<value>-2</value>
+			<value>6</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{cd499f9e-a251-40be-8b90-77687d4bdf9e}">
@@ -258,7 +261,7 @@
 			<value>20</value>
 		</property>
 		<property name="value">
-			<value>4</value>
+			<value>10</value>
 		</property>
 	</object>
 </objects>
