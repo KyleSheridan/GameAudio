@@ -111,8 +111,8 @@
 		</relationship>
 	</object>
 	<object class="EventSound" id="{cdc57035-e00d-44ea-9048-5371fd6a248e}">
-		<property name="start">
-			<value>16</value>
+		<property name="length">
+			<value>24</value>
 		</property>
 		<relationship name="event">
 			<destination>{45708f81-5857-4ad6-a306-330684d694e0}</destination>
