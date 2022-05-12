@@ -167,10 +167,10 @@
 	</object>
 	<object class="EventSound" id="{878b1159-04c1-4691-a917-40e6d4448597}">
 		<property name="start">
-			<value>0.50174054145812974</value>
+			<value>19</value>
 		</property>
 		<property name="length">
-			<value>0.099999999999999936</value>
+			<value>2.0000000000000018</value>
 		</property>
 		<property name="name">
 			<value>Night Show]</value>
@@ -184,10 +184,10 @@
 	</object>
 	<object class="EventSound" id="{6bad99c7-66f4-488b-8497-44e09de8ab30}">
 		<property name="start">
-			<value>0.40000000000000002</value>
+			<value>17</value>
 		</property>
 		<property name="length">
-			<value>0.10000000000000014</value>
+			<value>1.9999999999999987</value>
 		</property>
 		<property name="name">
 			<value>Evening Show</value>
@@ -198,10 +198,10 @@
 	</object>
 	<object class="EventSound" id="{ef7b0eb2-3ff6-4713-9f0e-c2bb14007d69}">
 		<property name="start">
-			<value>0.29999999999999999</value>
+			<value>15</value>
 		</property>
 		<property name="length">
-			<value>0.10000000000000005</value>
+			<value>1.9999999999999987</value>
 		</property>
 		<property name="name">
 			<value>Late Afternoon Show</value>
@@ -212,10 +212,10 @@
 	</object>
 	<object class="EventSound" id="{de55ed2f-592a-4d9d-b996-2a25f1060f2d}">
 		<property name="start">
-			<value>0.19999999999999998</value>
+			<value>13</value>
 		</property>
 		<property name="length">
-			<value>0.099999999999999992</value>
+			<value>2.0000000000000004</value>
 		</property>
 		<property name="name">
 			<value>Afternoon Show</value>
@@ -226,10 +226,10 @@
 	</object>
 	<object class="EventSound" id="{9ffbbb78-c944-4163-b05f-0d2cb6aedd6e}">
 		<property name="start">
-			<value>0.099999999999999992</value>
+			<value>11</value>
 		</property>
 		<property name="length">
-			<value>0.099999999999999992</value>
+			<value>2.0000000000000004</value>
 		</property>
 		<property name="name">
 			<value>Mid Morning Show</value>
@@ -239,8 +239,11 @@
 		</relationship>
 	</object>
 	<object class="EventSound" id="{27c16c48-39d9-43f0-b118-431ad265fba2}">
+		<property name="start">
+			<value>9</value>
+		</property>
 		<property name="length">
-			<value>0.099999999999999992</value>
+			<value>2.0000000000000004</value>
 		</property>
 		<property name="name">
 			<value>Breakfast Show</value>
@@ -272,8 +275,11 @@
 		</relationship>
 	</object>
 	<object class="EventSound" id="{42f2ec54-d943-478e-95fd-811ce24d5710}">
+		<property name="start">
+			<value>9</value>
+		</property>
 		<property name="length">
-			<value>0.099999999999999992</value>
+			<value>2.0000000000000004</value>
 		</property>
 		<relationship name="event">
 			<destination>{facdf6e2-1fee-4b3e-966a-2398ec0ba1d3}</destination>
@@ -281,10 +287,10 @@
 	</object>
 	<object class="EventSound" id="{654eaa9c-f384-4fe9-ab8a-bc0730b2e931}">
 		<property name="start">
-			<value>0.099999999999999992</value>
+			<value>11</value>
 		</property>
 		<property name="length">
-			<value>0.099999999999999992</value>
+			<value>2.0000000000000004</value>
 		</property>
 		<relationship name="event">
 			<destination>{f4a62f3e-6c6b-4c42-b32e-ad0b08195c53}</destination>
@@ -292,10 +298,10 @@
 	</object>
 	<object class="EventSound" id="{9f1e134b-f030-4170-80c7-abb25d078640}">
 		<property name="start">
-			<value>0.19999999999999998</value>
+			<value>13</value>
 		</property>
 		<property name="length">
-			<value>0.099999999999999992</value>
+			<value>2.0000000000000004</value>
 		</property>
 		<relationship name="event">
 			<destination>{0362150d-c2b3-4184-941c-d85b0a5063be}</destination>
@@ -303,10 +309,10 @@
 	</object>
 	<object class="EventSound" id="{09c993e7-f3aa-4174-9509-1639d440859b}">
 		<property name="start">
-			<value>0.29999999999999999</value>
+			<value>15</value>
 		</property>
 		<property name="length">
-			<value>0.10000000000000005</value>
+			<value>1.9999999999999987</value>
 		</property>
 		<relationship name="event">
 			<destination>{a0a474df-00fa-487a-bbc1-a6e702612350}</destination>
@@ -314,10 +320,10 @@
 	</object>
 	<object class="EventSound" id="{0e2e9938-e8a1-4ea2-9ee9-9ea9fb1b2c5a}">
 		<property name="start">
-			<value>0.40000000000000002</value>
+			<value>17</value>
 		</property>
 		<property name="length">
-			<value>0.10000000000000005</value>
+			<value>1.9999999999999982</value>
 		</property>
 		<relationship name="event">
 			<destination>{b743b37e-e894-4968-8890-f1d7120befcd}</destination>
@@ -325,10 +331,10 @@
 	</object>
 	<object class="EventSound" id="{1a4b792b-3ba3-4123-8084-436a7d804071}">
 		<property name="start">
-			<value>0.50000000000000011</value>
+			<value>19</value>
 		</property>
 		<property name="length">
-			<value>0.099999999999999936</value>
+			<value>1.9999999999999984</value>
 		</property>
 		<relationship name="event">
 			<destination>{5fa33dd7-f21b-4840-b92b-e9e275422203}</destination>
@@ -357,8 +363,11 @@
 		</relationship>
 	</object>
 	<object class="EventSound" id="{d3d88459-33b0-4fa3-b99f-9ce543908761}">
+		<property name="start">
+			<value>9</value>
+		</property>
 		<property name="length">
-			<value>0.60000000000000009</value>
+			<value>12</value>
 		</property>
 		<property name="name">
 			<value>Noise</value>

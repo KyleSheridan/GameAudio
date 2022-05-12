@@ -97,10 +97,7 @@
 	<object class="MixerBusPanner" id="{e642d0a3-da68-481d-b368-91a6ab1bef03}" />
 	<object class="EventSound" id="{21c8ac6e-705e-4594-8844-6c8f2e92099a}">
 		<property name="start">
-			<value>0.55000000000000004</value>
-		</property>
-		<property name="length">
-			<value>0.099999999999999936</value>
+			<value>17</value>
 		</property>
 		<relationship name="event">
 			<destination>{11d613fa-5e0a-4e66-8626-b72fc4a920d0}</destination>

@@ -105,10 +105,10 @@
 	</object>
 	<object class="EventSound" id="{5c3d9211-8367-469b-a6e8-7b3ffb5467c9}">
 		<property name="start">
-			<value>0.29999999999999999</value>
+			<value>12</value>
 		</property>
 		<property name="length">
-			<value>0.29999999999999999</value>
+			<value>9</value>
 		</property>
 		<relationship name="event">
 			<destination>{83b4fec7-5b66-4e2d-8b1e-295f4710727d}</destination>
@@ -182,7 +182,7 @@
 	</object>
 	<object class="AutomationPoint" id="{b45722d5-a47a-4c5e-9494-7b40f6f02f87}">
 		<property name="position">
-			<value>0.29999999999999999</value>
+			<value>12</value>
 		</property>
 		<property name="value">
 			<value>-8</value>
@@ -190,7 +190,7 @@
 	</object>
 	<object class="AutomationPoint" id="{59561d9e-579d-4980-b8bd-b78a7eac899f}">
 		<property name="position">
-			<value>0.60262725779967152</value>
+			<value>21</value>
 		</property>
 		<property name="value">
 			<value>0</value>
