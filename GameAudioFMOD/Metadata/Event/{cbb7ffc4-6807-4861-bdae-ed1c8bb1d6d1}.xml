@@ -60,8 +60,11 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{ebe1aedf-4d97-419d-be23-336b25b477dd}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
 		<property name="maximumDistance">
-			<value>30</value>
+			<value>50</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{25669730-7d4e-4acd-bf07-7b997e7800ba}" />
@@ -156,7 +159,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{547dc36c-2844-4539-a577-69640a42faa0}">
 		<property name="volume">
-			<value>-15.5</value>
+			<value>-7.5</value>
 		</property>
 		<property name="name">
 			<value>Playground</value>
@@ -247,8 +250,11 @@
 	<object class="MixerBusPanner" id="{1f4da4fa-c53c-4497-aec2-88c4f2b7d127}" />
 	<object class="MixerBusFader" id="{5343096b-5305-461d-9512-355a8519bc40}" />
 	<object class="SpatialiserEffect" id="{fadecd8a-a203-4e02-a449-d8c937b5656d}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
 		<property name="maximumDistance">
-			<value>30</value>
+			<value>50</value>
 		</property>
 		<property name="extentMode">
 			<value>1</value>
@@ -259,8 +265,11 @@
 	</object>
 	<object class="MixerBusFader" id="{8b6a1048-bba3-4e37-951f-1dc854414e2c}" />
 	<object class="SpatialiserEffect" id="{2b75c043-6eb5-4e18-aeb3-f7853df4ed45}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
 		<property name="maximumDistance">
-			<value>30</value>
+			<value>50</value>
 		</property>
 	</object>
 </objects>
