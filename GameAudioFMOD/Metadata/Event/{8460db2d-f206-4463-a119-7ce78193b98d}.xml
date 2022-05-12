@@ -5,7 +5,7 @@
 			<value>Chomping</value>
 		</property>
 		<property name="outputFormat">
-			<value>5</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8bae9802-8d77-46e5-b0af-a9f3bddff370}</destination>
@@ -92,6 +92,15 @@
 		<property name="volume">
 			<value>5</value>
 		</property>
+		<property name="spawnRate">
+			<value>82</value>
+		</property>
+		<property name="minimumScatterDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumScatterDistance">
+			<value>0</value>
+		</property>
 		<relationship name="sound">
 			<destination>{d634a7fc-61f6-4bec-ac5c-6da85394b4f5}</destination>
 		</relationship>
@@ -141,6 +150,7 @@
 	<object class="MixerBusEffectChain" id="{cca59533-3704-4b7c-be92-e465a48be110}">
 		<relationship name="effects">
 			<destination>{40db24ff-3b71-4ea0-9635-b59711d70961}</destination>
+			<destination>{0c022c20-e72f-4f49-997c-c40f63512d56}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{fa90f2ad-9601-47b7-9cfc-5fdd1a840e94}" />
@@ -170,6 +180,23 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{40db24ff-3b71-4ea0-9635-b59711d70961}" />
+	<object class="MultibandEqEffect" id="{0c022c20-e72f-4f49-997c-c40f63512d56}">
+		<property name="filterTypeB">
+			<value>6</value>
+		</property>
+		<property name="frequencyA">
+			<value>8137.83301</value>
+		</property>
+		<property name="frequencyB">
+			<value>649.722717</value>
+		</property>
+		<property name="qualityA">
+			<value>0.402513534</value>
+		</property>
+		<property name="qualityB">
+			<value>0.171024919</value>
+		</property>
+	</object>
 	<object class="RandomizerModulator" id="{134da817-19b3-4901-a0cd-be03c9cf10bf}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>startOffset</value>
