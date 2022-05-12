@@ -230,7 +230,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{16361c15-a391-48e9-b7dd-75948f9449e4}" />
 	<object class="MixerBusFader" id="{f03dda33-8007-443d-8555-c3dbfa7bcd25}" />
-	<object class="SpatialiserEffect" id="{75746b31-c9e0-4c25-af94-026fb632f492}" />
+	<object class="SpatialiserEffect" id="{75746b31-c9e0-4c25-af94-026fb632f492}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>3.79999995</value>
+		</property>
+		<property name="minimumExtent">
+			<value>72</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{b356957d-0e34-42a1-ae23-626a534f684b}" />
 	<object class="MixerBusFader" id="{806c7326-a888-4020-9795-422f153f1984}" />
 	<object class="MixerBusFader" id="{7d084ea2-14c2-4c1d-b9c6-ce39e5cd1507}" />
