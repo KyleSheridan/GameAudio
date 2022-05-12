@@ -13,7 +13,13 @@ public class PlayerMove : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
 
+    [Header("Footsteps")]
     public string footstepSoundName;
+    public LayerMask footstepMask;
+
+    private enum CURRENT_TERRAIN { Grass, Concrete };
+
+    private CURRENT_TERRAIN currentTerrain;
 
     Vector3 velocity;
     bool isGrounded;
@@ -23,6 +29,8 @@ public class PlayerMove : MonoBehaviour
     bool soundPlaying = false;
 
     Vector3 lastFramePos;
+
+    RaycastHit hit;
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +45,24 @@ public class PlayerMove : MonoBehaviour
         if(ActivityManager.Instance.menuOpen) { return; }
 
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+        if (soundPlaying)
+        {
+            if(Physics.Raycast(transform.position, Vector3.down, out hit, 2f, footstepMask))
+            {
+                if (hit.transform.gameObject.layer == LayerMask.NameToLayer("Grass"))
+                {
+                    currentTerrain = CURRENT_TERRAIN.Grass;
+                }
+                else
+                {
+                    currentTerrain = CURRENT_TERRAIN.Concrete;
+                }
+                if(soundPlaying)
+                {
+                    SetParams();
+                }
+            }
+        }
 
         if(isGrounded && velocity.y < 0)
         {
@@ -61,11 +87,9 @@ public class PlayerMove : MonoBehaviour
         if(currentSpeed > 2 && !soundPlaying)
         {
             PlayFootsteps();
-            Debug.Log("yes");
         }
         else if(currentSpeed < 1 && soundPlaying)
         {
-            Debug.Log("no");
             StopFootsteps();
         }
 
@@ -76,6 +100,7 @@ public class PlayerMove : MonoBehaviour
     {
         footsteps = FMODUnity.RuntimeManager.CreateInstance(footstepSoundName);
         soundPlaying = true;
+        SetParams();
         footsteps.start();
     }
 
@@ -83,5 +108,17 @@ public class PlayerMove : MonoBehaviour
     {
         footsteps.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
         soundPlaying = false;
+    }
+
+    void SetParams()
+    {
+        if (currentTerrain == CURRENT_TERRAIN.Concrete)
+        {
+            footsteps.setParameterByName("Concrete", 1f);
+        }
+        else
+        {
+            footsteps.setParameterByName("Concrete", 0f);
+        }
     }
 }
