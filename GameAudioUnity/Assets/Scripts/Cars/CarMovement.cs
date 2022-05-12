@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class CarMovement : MonoBehaviour
 {
+    private Rigidbody rigidbody;
+
     public List<Vector3> waypoints;
 
     public float speed = 10f;
@@ -15,6 +17,8 @@ public class CarMovement : MonoBehaviour
 
     public float rotationSpeed = 3f;
 
+    public float acceleration = 500f;
+
     private Vector3 target;
 
     private float breakAmount = 1f;
@@ -22,6 +26,13 @@ public class CarMovement : MonoBehaviour
     private int currentIndex;
 
     private float currentSpeed;
+
+    private bool breaking = false;
+
+    private void Awake()
+    {
+        rigidbody = GetComponent<Rigidbody>();
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -52,7 +63,7 @@ public class CarMovement : MonoBehaviour
 
     void CheckTarrget()
     {
-        if ((target - transform.position).magnitude <= 0.1f)
+        if ((target - transform.position).magnitude <= 1f)
         {
             IncreaseIndex();
             target = waypoints[currentIndex];
@@ -79,7 +90,16 @@ public class CarMovement : MonoBehaviour
 
         direction.Normalize();
 
-        transform.Translate(direction * currentSpeed * Time.deltaTime, Space.World);
+        if(breaking && rigidbody.velocity.magnitude > slowSpeed)
+        {
+            rigidbody.AddForce(direction * -acceleration * Time.deltaTime);
+        }
+        else if (rigidbody.velocity.magnitude < currentSpeed)
+        {
+            rigidbody.AddForce(direction * acceleration * Time.deltaTime);
+        }
+        //rigidbody.velocity = direction * currentSpeed;
+        //transform.Translate(direction * currentSpeed * Time.deltaTime, Space.World);
     }
 
     float LerpToSpeed(float targetSpeed)
