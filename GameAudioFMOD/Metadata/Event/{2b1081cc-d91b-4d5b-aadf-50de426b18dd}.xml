@@ -72,7 +72,11 @@
 			<destination>{1413bff7-3ae3-49eb-a201-48ed068cc02a}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{419b905a-2695-46d6-9106-a4f638bb89ac}" />
+	<object class="Timeline" id="{419b905a-2695-46d6-9106-a4f638bb89ac}">
+		<property name="isProxyEnabled">
+			<value>false</value>
+		</property>
+	</object>
 	<object class="ParameterProxy" id="{f57bb0e8-6b92-4be4-b993-adb655be5e88}">
 		<relationship name="modules">
 			<destination>{697096a9-d773-4624-9333-42386901c186}</destination>
@@ -109,6 +113,9 @@
 	<object class="EventSound" id="{697096a9-d773-4624-9333-42386901c186}">
 		<property name="start">
 			<value>17</value>
+		</property>
+		<property name="length">
+			<value>2</value>
 		</property>
 		<relationship name="event">
 			<destination>{0a7543be-6256-4c8c-a506-008be4b7da56}</destination>
