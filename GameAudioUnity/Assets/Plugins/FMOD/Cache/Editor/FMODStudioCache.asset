@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9196204349214047016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gym/Fitness class
+  m_EditorClassIdentifier: 
+  Path: event:/Gym/Fitness class
+  Guid:
+    Data1: -1696140035
+    Data2: 1299612883
+    Data3: -122055490
+    Data4: 641453919
+  Banks:
+  - {fileID: 8119021304110232239}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 22000
 --- !u!114 &-9037408096059415873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,7 +96,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Vehicles.bank
   Name: Vehicles
   StudioPath: bank:/Vehicles
-  lastModified: 637879893962011532
+  lastModified: 637879973647151707
   FileSizes:
   - Name: Desktop
     Value: 90752
@@ -304,7 +331,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637879893954124739
+  lastModified: 637879973632194207
   FileSizes:
   - Name: Desktop
     Value: 166304
@@ -324,10 +351,10 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Church.bank
   Name: Church
   StudioPath: bank:/Church
-  lastModified: 637879893951279781
+  lastModified: 637879973624382204
   FileSizes:
   - Name: Desktop
-    Value: 55682112
+    Value: 55682496
   Exists: 1
 --- !u!114 &-6780409108097390776
 MonoBehaviour:
@@ -450,7 +477,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Ambience Bank.bank
   Name: Ambience Bank
   StudioPath: bank:/Ambience Bank
-  lastModified: 637879893946033831
+  lastModified: 637879973610099036
   FileSizes:
   - Name: Desktop
     Value: 2305984
@@ -524,7 +551,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Bar.bank
   Name: Bar
   StudioPath: bank:/Bar
-  lastModified: 637879893947889188
+  lastModified: 637879973614377181
   FileSizes:
   - Name: Desktop
     Value: 30125856
@@ -810,7 +837,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/House.bank
   Name: House
   StudioPath: bank:/House
-  lastModified: 637879893953914658
+  lastModified: 637879973631774207
   FileSizes:
   - Name: Desktop
     Value: 1403744
@@ -841,7 +868,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 17500
+  Length: 16000
 --- !u!114 &-1593379386625541714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -857,10 +884,10 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Radio.bank
   Name: Radio
   StudioPath: bank:/Radio
-  lastModified: 637879893960961346
+  lastModified: 637879973644079027
   FileSizes:
   - Name: Desktop
-    Value: 96554400
+    Value: 96554016
   Exists: 1
 --- !u!114 &-1013515357758612669
 MonoBehaviour:
@@ -1064,13 +1091,14 @@ MonoBehaviour:
   - {fileID: 6311111276634096547}
   - {fileID: 5980943199949674798}
   - {fileID: -4706063992399958215}
+  - {fileID: -9196204349214047016}
   EditorParameters:
   - {fileID: -618999575901393635}
   MasterBanks:
   - {fileID: -7089234552702623566}
   StringsBanks:
   - {fileID: 1086247547052257025}
-  cacheTime: 637879893962195040
+  cacheTime: 637879973647151707
   cacheVersion: 10
 --- !u!114 &547560121080335347
 MonoBehaviour:
@@ -1114,10 +1142,10 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Additional SFX.bank
   Name: Additional SFX
   StudioPath: bank:/Additional SFX
-  lastModified: 637879893945708775
+  lastModified: 637879973609405731
   FileSizes:
   - Name: Desktop
-    Value: 12775648
+    Value: 12775552
   Exists: 1
 --- !u!114 &1086247547052257025
 MonoBehaviour:
@@ -1134,10 +1162,10 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637879893954149745
+  lastModified: 637879973632233936
   FileSizes:
   - Name: Desktop
-    Value: 4174
+    Value: 4218
   Exists: 1
 --- !u!114 &1242486261650197414
 MonoBehaviour:
@@ -1208,10 +1236,10 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/School.bank
   Name: School
   StudioPath: bank:/School
-  lastModified: 637879893961741486
+  lastModified: 637879973646426168
   FileSizes:
   - Name: Desktop
-    Value: 7014080
+    Value: 7014048
   Exists: 1
 --- !u!114 &1643137003656579335
 MonoBehaviour:
@@ -1684,7 +1712,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 12500
+  Length: 12000
 --- !u!114 &6311111276634096547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1711,7 +1739,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 23000
+  Length: 22000
 --- !u!114 &6478182056781446321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1751,7 +1779,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/PlayerSounds.bank
   Name: PlayerSounds
   StudioPath: bank:/PlayerSounds
-  lastModified: 637879893962195040
+  lastModified: 637879973632641202
   FileSizes:
   - Name: Desktop
     Value: 304352
@@ -1825,7 +1853,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Hardware Store.bank
   Name: Hardware Store
   StudioPath: bank:/Hardware Store
-  lastModified: 637879893952764456
+  lastModified: 637879973628178103
   FileSizes:
   - Name: Desktop
     Value: 6731104
@@ -1974,8 +2002,8 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Gym.bank
   Name: Gym
   StudioPath: bank:/Gym
-  lastModified: 637879893952079920
+  lastModified: 637879973626639246
   FileSizes:
   - Name: Desktop
-    Value: 12029536
+    Value: 16269184
   Exists: 1
