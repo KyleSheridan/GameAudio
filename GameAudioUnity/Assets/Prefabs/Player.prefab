@@ -198,6 +198,7 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 1
+  footstepSoundName: 
 --- !u!1 &7341473547202863899
 GameObject:
   m_ObjectHideFlags: 0

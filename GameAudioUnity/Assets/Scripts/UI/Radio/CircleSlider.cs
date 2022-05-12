@@ -39,6 +39,5 @@ public class CircleSlider : MonoBehaviour
     {
         float baseValue = (fill.fillAmount - 0.125f) / 0.75f;
         value = Mathf.Round(baseValue * 100) / 100f;
-        Debug.Log(value);
     }
 }

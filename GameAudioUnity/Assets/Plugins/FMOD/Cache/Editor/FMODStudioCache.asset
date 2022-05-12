@@ -69,7 +69,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Vehicles.bank
   Name: Vehicles
   StudioPath: bank:/Vehicles
-  lastModified: 637879815900000000
+  lastModified: 637879893962011532
   FileSizes:
   - Name: Desktop
     Value: 90752
@@ -206,7 +206,7 @@ MonoBehaviour:
     Data4: 1214150502
   Banks:
   - {fileID: 1549038562630730489}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
@@ -289,33 +289,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-7372777059649391701
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Gym/Stamina Workout
-  m_EditorClassIdentifier: 
-  Path: event:/Gym/Stamina Workout
-  Guid:
-    Data1: -1981107748
-    Data2: 1261452737
-    Data3: 873949860
-    Data4: -692000276
-  Banks:
-  - {fileID: 8119021304110232239}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 6000
 --- !u!114 &-7089234552702623566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -331,7 +304,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637879815900000000
+  lastModified: 637879893954124739
   FileSizes:
   - Name: Desktop
     Value: 166304
@@ -351,10 +324,10 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Church.bank
   Name: Church
   StudioPath: bank:/Church
-  lastModified: 637879815890000000
+  lastModified: 637879893951279781
   FileSizes:
   - Name: Desktop
-    Value: 55682880
+    Value: 55682112
   Exists: 1
 --- !u!114 &-6780409108097390776
 MonoBehaviour:
@@ -382,7 +355,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 5965
+  Length: 5400
 --- !u!114 &-6756781734233394302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -477,10 +450,10 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Ambience Bank.bank
   Name: Ambience Bank
   StudioPath: bank:/Ambience Bank
-  lastModified: 637879815890000000
+  lastModified: 637879893946033831
   FileSizes:
   - Name: Desktop
-    Value: 2305920
+    Value: 2305984
   Exists: 1
 --- !u!114 &-5677942632876002763
 MonoBehaviour:
@@ -551,10 +524,10 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Bar.bank
   Name: Bar
   StudioPath: bank:/Bar
-  lastModified: 637879815890000000
+  lastModified: 637879893947889188
   FileSizes:
   - Name: Desktop
-    Value: 30126144
+    Value: 30125856
   Exists: 1
 --- !u!114 &-4790341376409134869
 MonoBehaviour:
@@ -584,6 +557,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 79438
+--- !u!114 &-4706063992399958215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Footsteps SFX/Footsteps SFX 2
+  m_EditorClassIdentifier: 
+  Path: event:/Footsteps SFX/Footsteps SFX 2
+  Guid:
+    Data1: 1797305554
+    Data2: 1267791948
+    Data3: -367504733
+    Data4: 1934256487
+  Banks:
+  - {fileID: 6597384006764800665}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 3249282004568823032}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3200
 --- !u!114 &-4685072446078738996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -809,10 +810,10 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/House.bank
   Name: House
   StudioPath: bank:/House
-  lastModified: 637879815900000000
+  lastModified: 637879893953914658
   FileSizes:
   - Name: Desktop
-    Value: 1403776
+    Value: 1403744
   Exists: 1
 --- !u!114 &-1741668094058645002
 MonoBehaviour:
@@ -840,7 +841,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 16100
+  Length: 17500
 --- !u!114 &-1593379386625541714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -856,10 +857,10 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Radio.bank
   Name: Radio
   StudioPath: bank:/Radio
-  lastModified: 637879815900000000
+  lastModified: 637879893960961346
   FileSizes:
   - Name: Desktop
-    Value: 96555392
+    Value: 96554400
   Exists: 1
 --- !u!114 &-1013515357758612669
 MonoBehaviour:
@@ -1016,6 +1017,7 @@ MonoBehaviour:
   - {fileID: -7089234552702623566}
   - {fileID: -1593379386625541714}
   - {fileID: 1549038562630730489}
+  - {fileID: 6597384006764800665}
   EditorEvents:
   - {fileID: -382983547591195950}
   - {fileID: 2379428390091474655}
@@ -1041,7 +1043,6 @@ MonoBehaviour:
   - {fileID: 7441071790982476100}
   - {fileID: -3553114448217031978}
   - {fileID: -7521516379886872308}
-  - {fileID: -7372777059649391701}
   - {fileID: -1741668094058645002}
   - {fileID: 2263234195773961838}
   - {fileID: 1242486261650197414}
@@ -1060,13 +1061,16 @@ MonoBehaviour:
   - {fileID: -8387295050862177129}
   - {fileID: 5841584483836991090}
   - {fileID: -6780409108097390776}
+  - {fileID: 6311111276634096547}
+  - {fileID: 5980943199949674798}
+  - {fileID: -4706063992399958215}
   EditorParameters:
   - {fileID: -618999575901393635}
   MasterBanks:
   - {fileID: -7089234552702623566}
   StringsBanks:
   - {fileID: 1086247547052257025}
-  cacheTime: 637879815900000000
+  cacheTime: 637879893962195040
   cacheVersion: 10
 --- !u!114 &547560121080335347
 MonoBehaviour:
@@ -1110,10 +1114,10 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Additional SFX.bank
   Name: Additional SFX
   StudioPath: bank:/Additional SFX
-  lastModified: 637879815890000000
+  lastModified: 637879893945708775
   FileSizes:
   - Name: Desktop
-    Value: 12668416
+    Value: 12775648
   Exists: 1
 --- !u!114 &1086247547052257025
 MonoBehaviour:
@@ -1130,10 +1134,10 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637879815900000000
+  lastModified: 637879893954149745
   FileSizes:
   - Name: Desktop
-    Value: 4032
+    Value: 4174
   Exists: 1
 --- !u!114 &1242486261650197414
 MonoBehaviour:
@@ -1204,10 +1208,10 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/School.bank
   Name: School
   StudioPath: bank:/School
-  lastModified: 637879815900000000
+  lastModified: 637879893961741486
   FileSizes:
   - Name: Desktop
-    Value: 4448928
+    Value: 7014080
   Exists: 1
 --- !u!114 &1643137003656579335
 MonoBehaviour:
@@ -1366,6 +1370,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 30000
+--- !u!114 &3249282004568823032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps SFX 2/Concrete
+  m_EditorClassIdentifier: 
+  Name: Concrete
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 708802096
+    data2: 1304647915
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &3706136785209269106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1572,13 +1600,13 @@ MonoBehaviour:
     Data4: 1483755171
   Banks:
   - {fileID: 1549038562630730489}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 6000
+  Length: 7300
 --- !u!114 &5809593642457666160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1630,6 +1658,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 7012
+--- !u!114 &5980943199949674798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gym/Treadmill
+  m_EditorClassIdentifier: 
+  Path: event:/Gym/Treadmill
+  Guid:
+    Data1: -1981107748
+    Data2: 1261452737
+    Data3: 873949860
+    Data4: -692000276
+  Banks:
+  - {fileID: 8119021304110232239}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12500
+--- !u!114 &6311111276634096547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Gym/Boxing Session
+  m_EditorClassIdentifier: 
+  Path: event:/Gym/Boxing Session
+  Guid:
+    Data1: -1893317231
+    Data2: 1210591816
+    Data3: -397367912
+    Data4: 1642467617
+  Banks:
+  - {fileID: 8119021304110232239}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 23000
 --- !u!114 &6478182056781446321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1653,6 +1735,26 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 1
   Labels: []
+  Exists: 1
+--- !u!114 &6597384006764800665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/PlayerSounds.bank
+  m_EditorClassIdentifier: 
+  Path: ../GameAudioFMOD/Build/Desktop/PlayerSounds.bank
+  Name: PlayerSounds
+  StudioPath: bank:/PlayerSounds
+  lastModified: 637879893962195040
+  FileSizes:
+  - Name: Desktop
+    Value: 304352
   Exists: 1
 --- !u!114 &6623067663742106496
 MonoBehaviour:
@@ -1723,10 +1825,10 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Hardware Store.bank
   Name: Hardware Store
   StudioPath: bank:/Hardware Store
-  lastModified: 637879815900000000
+  lastModified: 637879893952764456
   FileSizes:
   - Name: Desktop
-    Value: 6729568
+    Value: 6731104
   Exists: 1
 --- !u!114 &7441071790982476100
 MonoBehaviour:
@@ -1872,8 +1974,8 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Gym.bank
   Name: Gym
   StudioPath: bank:/Gym
-  lastModified: 637879815890000000
+  lastModified: 637879893952079920
   FileSizes:
   - Name: Desktop
-    Value: 8950656
+    Value: 12029536
   Exists: 1

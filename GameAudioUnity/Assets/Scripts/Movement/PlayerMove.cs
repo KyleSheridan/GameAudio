@@ -13,13 +13,22 @@ public class PlayerMove : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
 
+    public string footstepSoundName;
+
     Vector3 velocity;
     bool isGrounded;
+
+    FMOD.Studio.EventInstance footsteps;
+
+    bool soundPlaying = false;
+
+    Vector3 lastFramePos;
 
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        lastFramePos = transform.position;
     }
 
     // Update is called once per frame
@@ -46,5 +55,33 @@ public class PlayerMove : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
+
+        float currentSpeed = Vector3.Distance(lastFramePos, transform.position) / Time.deltaTime;
+
+        if(currentSpeed > 2 && !soundPlaying)
+        {
+            PlayFootsteps();
+            Debug.Log("yes");
+        }
+        else if(currentSpeed < 1 && soundPlaying)
+        {
+            Debug.Log("no");
+            StopFootsteps();
+        }
+
+        lastFramePos = transform.position;
+    }
+
+    void PlayFootsteps()
+    {
+        footsteps = FMODUnity.RuntimeManager.CreateInstance(footstepSoundName);
+        soundPlaying = true;
+        footsteps.start();
+    }
+
+    void StopFootsteps()
+    {
+        footsteps.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        soundPlaying = false;
     }
 }
