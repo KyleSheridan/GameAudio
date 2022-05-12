@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{2bd2ae56-f698-44e0-b3c0-a719fc556880}">
+	<object class="AudioFile" id="{9165a91f-c9b8-4ff0-978d-6364bb79bd3e}">
 		<property name="assetPath">
-			<value>Kyle/House/Sleep/Snore1.wav</value>
+			<value>Kyle/Misc/Chomp1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>1</value>
 		</property>
 		<property name="length">
-			<value>4.8407029478458048</value>
+			<value>1.079047619047619</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{2b188c01-3b4c-4c79-ba34-49adcacbd336}</destination>
