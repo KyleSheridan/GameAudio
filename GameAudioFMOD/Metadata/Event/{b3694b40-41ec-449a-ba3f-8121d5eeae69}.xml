@@ -159,7 +159,7 @@
 			<value>23.000000000000004</value>
 		</property>
 		<property name="length">
-			<value>12.999999999999996</value>
+			<value>6.9999999999999964</value>
 		</property>
 		<relationship name="sounds">
 			<destination>{14e6821f-824b-48dd-84f5-9f67f26de8fe}</destination>
@@ -186,7 +186,7 @@
 	</object>
 	<object class="SingleSound" id="{84a95097-a16b-408a-8d12-48ca2c398c13}">
 		<property name="length">
-			<value>65</value>
+			<value>30</value>
 		</property>
 		<property name="timelockedOffset">
 			<value>1</value>

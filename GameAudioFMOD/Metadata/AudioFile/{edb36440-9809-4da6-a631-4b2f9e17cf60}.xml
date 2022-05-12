@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{edb36440-9809-4da6-a631-4b2f9e17cf60}">
+		<property name="assetPath">
+			<value>Amy/Others/noise.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>29.600000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2b188c01-3b4c-4c79-ba34-49adcacbd336}</destination>
+		</relationship>
+	</object>
+</objects>
