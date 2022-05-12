@@ -318,7 +318,7 @@
 			<value>14.5</value>
 		</property>
 		<property name="length">
-			<value>1.6000000000000014</value>
+			<value>3</value>
 		</property>
 		<property name="timelockedOffset">
 			<value>2.9499999999999993</value>
@@ -346,7 +346,7 @@
 	</object>
 	<object class="SingleSound" id="{c2991cd9-c404-42a9-9a2c-dffbd94947f5}">
 		<property name="length">
-			<value>16.100000000000001</value>
+			<value>17.5</value>
 		</property>
 		<property name="timelockedOffset">
 			<value>577.68367664415928</value>
