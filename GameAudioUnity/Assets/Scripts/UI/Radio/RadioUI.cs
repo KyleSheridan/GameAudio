@@ -21,6 +21,10 @@ public class RadioUI : MonoBehaviour
 
     [SerializeField] TMP_Text volText;
 
+    public int numShows = 2;
+
+    public List<string> showNames;
+
     private void Start()
     {
         radioEvent = radioAudio.EventInstance;
@@ -37,7 +41,7 @@ public class RadioUI : MonoBehaviour
 
     void SetValues()
     {
-        float fmVal = fmKnob.value * 2;
+        float fmVal = fmKnob.value * numShows;
 
         radioEvent.setParameterByName("RadioChannelSelector", fmVal);
         radioEvent.setParameterByName("RadioVolume", volKnob.value);
@@ -45,18 +49,29 @@ public class RadioUI : MonoBehaviour
         fmText.text = fmVal.ToString();
         volText.text = (volKnob.value * 100).ToString();
 
-        if(fmVal >= 0.2 && fmVal <= 0.8)
+        for (int i = 0; i < numShows; i++)
         {
-            stationText.text = "Radio 1";
-        } 
-        else if (fmVal >= 1.2 && fmVal <= 1.8)
-        {
-            stationText.text = "Radio 1xtra";
+            if(fmVal >= i + 0.2 && fmVal <= i + 0.8)
+            {
+                stationText.text = showNames[i];
+                return;
+            }
         }
-        else
-        {
-            stationText.text = "No Signal...";
-        }
+
+        stationText.text = "No Signal...";
+        
+        //if(fmVal >= 0.2 && fmVal <= 0.8)
+        //{
+        //    stationText.text = "Radio 1";
+        //} 
+        //else if (fmVal >= 1.2 && fmVal <= 1.8)
+        //{
+        //    stationText.text = "Radio 1xtra";
+        //}
+        //else
+        //{
+        //    stationText.text = "No Signal...";
+        //}
     }
 
     void SetUI()

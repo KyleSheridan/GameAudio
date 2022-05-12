@@ -39,22 +39,38 @@ public class TimeOfDay : MonoBehaviour
     {
         Day = DayOfWeek.Monday;
         Time = 9;
+
+        SetTimeOfDayParam();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            IncreaseTime(1);
+        }
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            IncreaseTime(5);
+        }
+    }
+
+    public void SetTimeOfDayParam()
+    {
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByName("TimeOfDay", Time);
     }
 
     public void IncreaseTime(int amount)
     {
         Time += amount;
 
-        if(Time > 22)
+        if(Time > 20)
         {
             NextDay();
         }
+
+        SetTimeOfDayParam();
     }
 
     private void NextDay()
