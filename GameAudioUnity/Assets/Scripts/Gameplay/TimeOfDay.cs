@@ -19,6 +19,10 @@ public class TimeOfDay : MonoBehaviour
         Sunday
     }
 
+    public int startDay = 9;
+
+    public int finishDay = 20;
+
     public int Time { get; private set; }
     public DayOfWeek Day { get; private set; }
 
@@ -38,7 +42,7 @@ public class TimeOfDay : MonoBehaviour
     void Start()
     {
         Day = DayOfWeek.Monday;
-        Time = 9;
+        Time = startDay;
 
         SetTimeOfDayParam();
     }
@@ -65,7 +69,7 @@ public class TimeOfDay : MonoBehaviour
     {
         Time += amount;
 
-        if(Time > 20)
+        if(Time > finishDay)
         {
             NextDay();
         }
@@ -84,7 +88,7 @@ public class TimeOfDay : MonoBehaviour
             Day += 1;
         }
 
-        Time = 9;
+        Time = startDay;
     }
 
     private void OnDestroy()
