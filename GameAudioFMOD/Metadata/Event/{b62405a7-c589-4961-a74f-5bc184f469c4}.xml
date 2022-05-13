@@ -109,7 +109,7 @@
 	</object>
 	<object class="EventSound" id="{d4d59a5b-50e0-4097-9570-191c4ad1b156}">
 		<property name="length">
-			<value>17</value>
+			<value>18</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{80ca6db8-cf16-4d50-865f-0a8c26eaba94}</destination>
@@ -134,10 +134,7 @@
 	</object>
 	<object class="EventSound" id="{9cb39783-87b6-4795-bee9-bcd3511bb7d0}">
 		<property name="start">
-			<value>17</value>
-		</property>
-		<property name="length">
-			<value>2</value>
+			<value>18</value>
 		</property>
 		<relationship name="event">
 			<destination>{80bf1c47-74ed-4a88-b935-72a330209c47}</destination>
