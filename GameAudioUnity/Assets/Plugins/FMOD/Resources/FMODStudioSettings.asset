@@ -634,8 +634,6 @@ MonoBehaviour:
   - Hardware Store
   - House
   - PlayerSounds
-  - Radio
-  - School
   - Vehicles
   BanksToLoad: []
   LiveUpdatePort: 9264
