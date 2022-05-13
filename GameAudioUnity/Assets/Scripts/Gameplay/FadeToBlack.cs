@@ -16,7 +16,7 @@ public class FadeToBlack : MonoBehaviour
     public CanvasGroup blackScreen;
 
     public float screenFadeSpeed = 1f;
-    public float radioFadeSpeed = 0.001f;
+    public float soundFadeSpeed = 0.001f;
 
     FMOD.Studio.Bus worldSounds;
 
@@ -72,7 +72,7 @@ public class FadeToBlack : MonoBehaviour
 
         if (fadeSoundIn)
         {
-            currentVolume += radioFadeSpeed * Time.deltaTime;
+            currentVolume += soundFadeSpeed * Time.deltaTime;
 
             if (currentVolume > desiredVolume)
             {
@@ -82,11 +82,10 @@ public class FadeToBlack : MonoBehaviour
             }
 
             worldSounds.setVolume(currentVolume);
-            //radioEvent.setParameterByName("RadioVolume", currentVolume);
         }
         else if (fadeSoundOut)
         {
-            currentVolume -= radioFadeSpeed * Time.deltaTime;
+            currentVolume -= soundFadeSpeed * Time.deltaTime;
 
             if (currentVolume < 0)
             {
@@ -96,7 +95,6 @@ public class FadeToBlack : MonoBehaviour
             }
 
             worldSounds.setVolume(currentVolume);
-           // radioEvent.setParameterByName("RadioVolume", currentVolume);
         }
     }
 

@@ -10,9 +10,4 @@ public class HouseParameterFunctions : MonoBehaviour
 
         ActivityManager.Instance.eventInstance.setParameterByName("ChordProgression", num);
     }
-
-    public void PianoChangeModifiers()
-    {
-        ActivityManager.Instance.currentActivity.modifiers.Add(new StatModifier(StatType.Intelligence, 1));
-    }
 }
