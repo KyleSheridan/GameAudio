@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{398b705d-204b-4fdc-b2f9-596e4186c87a}">
+		<property name="assetPath">
+			<value>Kyle/Shop/Cigarettes/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2b188c01-3b4c-4c79-ba34-49adcacbd336}</destination>
+		</relationship>
+	</object>
+</objects>

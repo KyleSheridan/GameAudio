@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{5f5a3fa6-3180-4547-a6e0-ac54e6e9da4f}">
+		<property name="assetPath">
+			<value>Kyle/Shop/Music/CalmJazzLoop.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>23.991791383219955</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2b188c01-3b4c-4c79-ba34-49adcacbd336}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f77cccd2-0358-4220-aec1-7cd07f0af29f}">
+		<property name="assetPath">
+			<value>Kyle/Shop/Drink/Gulp1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.66856249999999995</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2b188c01-3b4c-4c79-ba34-49adcacbd336}</destination>
+		</relationship>
+	</object>
+</objects>
