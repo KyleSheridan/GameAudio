@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{c1b2e905-813e-4412-91c9-109a85941e8d}">
 		<property name="assetPath">
-			<value>Steve/Bar/Opening A Beer Sound Effect.mp3</value>
+			<value>Steve/Steve/Bar/Opening A Beer Sound Effect.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

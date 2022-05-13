@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{184c2cc0-febd-4e79-9a74-02e5ad1bd3cf}">
 		<property name="assetPath">
-			<value>Steve/BBC Radio 1Xtra - Ace - Midday Mix from DJ Frisky.mp3</value>
+			<value>Steve/Steve/BBC Radio 1Xtra - Ace - Midday Mix from DJ Frisky.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

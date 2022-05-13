@@ -96,7 +96,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Vehicles.bank
   Name: Vehicles
   StudioPath: bank:/Vehicles
-  lastModified: 637879973647151707
+  lastModified: 637880040661425501
   FileSizes:
   - Name: Desktop
     Value: 90752
@@ -331,7 +331,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637879973632194207
+  lastModified: 637880040631213926
   FileSizes:
   - Name: Desktop
     Value: 166304
@@ -351,7 +351,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Church.bank
   Name: Church
   StudioPath: bank:/Church
-  lastModified: 637879973624382204
+  lastModified: 637880040616192632
   FileSizes:
   - Name: Desktop
     Value: 55682496
@@ -477,7 +477,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Ambience Bank.bank
   Name: Ambience Bank
   StudioPath: bank:/Ambience Bank
-  lastModified: 637879973610099036
+  lastModified: 637880040602195094
   FileSizes:
   - Name: Desktop
     Value: 2305984
@@ -551,7 +551,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Bar.bank
   Name: Bar
   StudioPath: bank:/Bar
-  lastModified: 637879973614377181
+  lastModified: 637880040607147016
   FileSizes:
   - Name: Desktop
     Value: 30125856
@@ -604,14 +604,14 @@ MonoBehaviour:
     Data4: 1934256487
   Banks:
   - {fileID: 6597384006764800665}
-  IsStream: 1
+  IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
   - {fileID: 3249282004568823032}
   MinDistance: 1
   MaxDistance: 20
-  Length: 3200
+  Length: 0
 --- !u!114 &-4685072446078738996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -837,7 +837,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/House.bank
   Name: House
   StudioPath: bank:/House
-  lastModified: 637879973631774207
+  lastModified: 637880040630655677
   FileSizes:
   - Name: Desktop
     Value: 1403744
@@ -884,7 +884,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Radio.bank
   Name: Radio
   StudioPath: bank:/Radio
-  lastModified: 637879973644079027
+  lastModified: 637880040655841489
   FileSizes:
   - Name: Desktop
     Value: 96554016
@@ -1098,7 +1098,7 @@ MonoBehaviour:
   - {fileID: -7089234552702623566}
   StringsBanks:
   - {fileID: 1086247547052257025}
-  cacheTime: 637879973647151707
+  cacheTime: 637880040661425501
   cacheVersion: 10
 --- !u!114 &547560121080335347
 MonoBehaviour:
@@ -1142,7 +1142,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Additional SFX.bank
   Name: Additional SFX
   StudioPath: bank:/Additional SFX
-  lastModified: 637879973609405731
+  lastModified: 637880040601052757
   FileSizes:
   - Name: Desktop
     Value: 12775552
@@ -1162,7 +1162,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637879973632233936
+  lastModified: 637880040631284017
   FileSizes:
   - Name: Desktop
     Value: 4218
@@ -1236,7 +1236,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/School.bank
   Name: School
   StudioPath: bank:/School
-  lastModified: 637879973646426168
+  lastModified: 637880040660571224
   FileSizes:
   - Name: Desktop
     Value: 7014048
@@ -1779,10 +1779,10 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/PlayerSounds.bank
   Name: PlayerSounds
   StudioPath: bank:/PlayerSounds
-  lastModified: 637879973632641202
+  lastModified: 637880040637620245
   FileSizes:
   - Name: Desktop
-    Value: 304352
+    Value: 61760
   Exists: 1
 --- !u!114 &6623067663742106496
 MonoBehaviour:
@@ -1853,7 +1853,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Hardware Store.bank
   Name: Hardware Store
   StudioPath: bank:/Hardware Store
-  lastModified: 637879973628178103
+  lastModified: 637880040624115378
   FileSizes:
   - Name: Desktop
     Value: 6731104
@@ -2002,7 +2002,7 @@ MonoBehaviour:
   Path: ../GameAudioFMOD/Build/Desktop/Gym.bank
   Name: Gym
   StudioPath: bank:/Gym
-  lastModified: 637879973626639246
+  lastModified: 637880040620414577
   FileSizes:
   - Name: Desktop
     Value: 16269184

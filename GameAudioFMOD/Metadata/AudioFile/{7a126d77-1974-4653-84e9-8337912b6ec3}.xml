@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{7a126d77-1974-4653-84e9-8337912b6ec3}">
 		<property name="assetPath">
-			<value>Steve/BBC Radio 1Xtra - DJ Edu - Destination Africa.mp3</value>
+			<value>Steve/Steve/BBC Radio 1Xtra - DJ Edu - Destination Africa.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

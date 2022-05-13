@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{d10e5137-c720-428b-8c12-7e8c4bfb3072}">
 		<property name="assetPath">
-			<value>Steve/BBC Radio 1Xtra - Remi Burgz.mp3</value>
+			<value>Steve/Steve/BBC Radio 1Xtra - Remi Burgz.mp3</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
