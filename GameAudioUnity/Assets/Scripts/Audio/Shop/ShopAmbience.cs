@@ -25,7 +25,6 @@ public class ShopAmbience : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(currentVal);
         if (increaseParam)
         {
             currentVal += blendSpeed * Time.deltaTime;

@@ -59,19 +59,6 @@ public class RadioUI : MonoBehaviour
         }
 
         stationText.text = "No Signal...";
-        
-        //if(fmVal >= 0.2 && fmVal <= 0.8)
-        //{
-        //    stationText.text = "Radio 1";
-        //} 
-        //else if (fmVal >= 1.2 && fmVal <= 1.8)
-        //{
-        //    stationText.text = "Radio 1xtra";
-        //}
-        //else
-        //{
-        //    stationText.text = "No Signal...";
-        //}
     }
 
     void SetUI()
