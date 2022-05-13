@@ -5,7 +5,7 @@
 			<value>Drink</value>
 		</property>
 		<property name="outputFormat">
-			<value>5</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{e079f593-416e-4690-8d95-f3bf6606d48c}</destination>
@@ -175,6 +175,12 @@
 		</property>
 		<property name="length">
 			<value>1.3500000000000001</value>
+		</property>
+		<property name="minimumScatterDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumScatterDistance">
+			<value>0</value>
 		</property>
 		<relationship name="sound">
 			<destination>{cb5074bf-570a-4f58-b4a4-78544e898c03}</destination>

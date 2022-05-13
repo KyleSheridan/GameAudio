@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 6889947360068588888}
   - component: {fileID: 6897911750978268102}
   - component: {fileID: 2448130157810544112}
+  - component: {fileID: 2932005221918699990}
+  - component: {fileID: -183186395493617232}
   m_Layer: 0
   m_Name: ShopIcon
   m_TagString: Untagged
@@ -96,3 +98,103 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.5
   rotSpeed: 50
+--- !u!135 &2932005221918699990
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6912298236176494696}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: -0.004321344, y: -0.002405107, z: -0.0000000018626451}
+--- !u!114 &-183186395493617232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6912298236176494696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5d651070251504592a50809f07cf52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuSoundsName: event:/Shop/ShopMenuMusic
+  activities:
+  - title: Buy a drink
+    description: Feeling thirsty? Try our new selection for just 5$!
+    effects: '- 5$
+
+      Hunger + 5%
+
+      Energy + 10%'
+    hours: 0
+    soundName: event:/Shop/Drink
+    soundTime: 5
+    parameterFunctions:
+      m_PersistentCalls:
+        m_Calls: []
+    modifiers:
+    - type: 0
+      amount: -5
+    - type: 4
+      amount: 5
+    - type: 5
+      amount: 10
+  - title: Buy a snack
+    description: We have a wide range of sandwiches made fresh every morning! 10$
+      each
+    effects: '- 10$
+
+      Hunger + 20%
+
+      Energy + 15%'
+    hours: 0
+    soundName: event:/Shop/Snack
+    soundTime: 6
+    parameterFunctions:
+      m_PersistentCalls:
+        m_Calls: []
+    modifiers:
+    - type: 0
+      amount: -10
+    - type: 4
+      amount: 20
+    - type: 5
+      amount: 15
+  - title: Buy cigarettes
+    description: Time for a smoke break after a long stressful day.
+    effects: '- 20$'
+    hours: 0
+    soundName: event:/Shop/Smoking
+    soundTime: 14
+    parameterFunctions:
+      m_PersistentCalls:
+        m_Calls: []
+    modifiers:
+    - type: 0
+      amount: -20
+  - title: Work shift
+    description: Work a shift to make some quick cash.
+    effects: '+ 70$
+
+      Hunger - 50%
+
+      Energy - 60%'
+    hours: 5
+    soundName: event:/Shop/ShopShift
+    soundTime: 13
+    parameterFunctions:
+      m_PersistentCalls:
+        m_Calls: []
+    modifiers:
+    - type: 0
+      amount: 70
+    - type: 4
+      amount: -50
+    - type: 5
+      amount: -60
